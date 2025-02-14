@@ -30,3 +30,48 @@ Globální síť, která propojuje zařízení a menší sítě po celém svět�
 
 **WAN (Wide Area Network)**:  
 Rozsáhlá síť, která propojuje lokální sítě (LAN) na velké vzdálenosti. WAN často využívá telekomunikační technologie, jako jsou optická vlákna, satelity nebo mikrovlnné spoje. Nejznámějším příkladem WAN je internet.
+
+
+****
+## Dělení sítí dle typu propojení uzlů:
+
+P2P (peer-to-peer)— je síť, kde jsou všechna zařízení rovnocenná a mohou si vyměňovat data přímo, bez centrálního serveru.
+
+### Jak to funguje:
+
+- Zařízení se připojují přímo k sobě.
+- Soubory nebo data se přenášejí po částech od více účastníků najednou.
+
+### Výhody:
+
+- Funguje, i když se některý účastník odpojí.
+- Rychlejší přenos dat, pokud je hodně účastníků.
+- Není potřeba centrální server, který by mohl selhat.
+
+### Nevýhody:
+
+- Menší kontrola nad bezpečností.
+- Závislost na aktivitě účastníků (málo lidí = nízká rychlost).
+
+Příklady: Torrenty, decentralizované sítě, jako je blockchain.
+
+
+Klient-server — je model sítě, kde zařízení (klienti) komunikují přes centrální server, který poskytuje služby nebo data.
+
+### Jak to funguje:
+
+- Klienti posílají požadavky serveru.
+- Server zpracuje požadavek a pošle odpověď (např. data, webovou stránku).
+
+### Výhody:
+
+- Centrální kontrola nad daty a zabezpečením.
+- Stabilní výkon a spolehlivost.
+- Snadná správa a zálohování dat.
+
+### Nevýhody:
+
+- Pokud server selže, celá síť může přestat fungovat.
+- Vyšší náklady na provoz a údržbu serveru.
+
+Příklady: Webové stránky, e-maily, databázové systémy.
