@@ -46,7 +46,7 @@
 - RJ-11 – telefonní připojení
 
 - T568A a T568B – zapojení konektorů kroucené dvojlinky
-
+***
 ## 5. Výhody a nevýhody
 
 ### Výhody:
@@ -64,8 +64,8 @@
 - Citlivost na elektromagnetické rušení
 
 - Zastaralost koaxiálních řešení
-
+*** 
 ## Závěr
 - #### Měděná kabeláž zůstává důležitou součástí síťové infrastruktury. Moderní standardy kroucené dvojlinky umožňují přenos dat vysokými rychlostmi, avšak s rozvojem optických vláken a bezdrátových technologií její využití postupně klesá.
-
+*** 
 
