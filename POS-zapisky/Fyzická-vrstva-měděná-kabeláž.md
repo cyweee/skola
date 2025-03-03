@@ -69,3 +69,4 @@
 - #### Měděná kabeláž zůstává důležitou součástí síťové infrastruktury. Moderní standardy kroucené dvojlinky umožňují přenos dat vysokými rychlostmi, avšak s rozvojem optických vláken a bezdrátových technologií její využití postupně klesá.
 *** 
 
+
