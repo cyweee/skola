@@ -9,3 +9,19 @@ float height = float.Parse(Console.ReadLine());
 float bmi = weight / (height * height);
 
 Console.WriteLine($"your bmi is {bmi}");
+
+if (bmi < 18.5)
+{
+    Console.WriteLine("underweight.");
+}
+else if (bmi < 25)
+{
+    Console.WriteLine("norm");
+}
+else if (bmi < 30)
+{
+    Console.WriteLine("overweight.");
+}
+else
+{
+    Console.WriteLine("are you still alive?");
