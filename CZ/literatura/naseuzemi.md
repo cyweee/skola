@@ -121,4 +121,46 @@ Jan Hus byl významný kazatel, reformátor, filozof a rektor Univerzity Karlovy
 - Dcerka – náboženské a výchovné pojednání, v němž postava matky vychovává svou „dceru“ k čistému životu.
 - O šesti bludech – stručný výklad o chybách, kterých se podle Husa dopouštěla tehdejší církev.
 - Význam pro jazyk – dbal na srozumitelnost a jasnost češtiny, usiloval o pravopisnou reformu (např. zavádění diakritiky místo spřežek).
+****
 
+# Literatura v době husitských bojů (1419–1434)
+
+## Historické pozadí
+- Husitské války byly náboženské a politické konflikty v českých zemích.
+- Vypukly v reakci na kritiku katolické církve a úpadek morálky duchovenstva.
+- Klíčovou postavou byl Mistr Jan Hus, jehož reformní myšlenky inspirovaly husitské hnutí.
+
+## Hlavní rysy literatury
+- Literatura se stává bojovnou a agitační.
+- Texty jsou často psány česky, aby byly srozumitelné široké veřejnosti.
+- Důraz na kázání, písně a polemické texty.
+
+## Hlavní žánry a díla
+
+### Kázání
+- Používané k šíření náboženských a politických idejí.
+- **Jan Hus – Kázání o svatokupectví**: ostrá kritika církevní praxe.
+
+### Polemiky
+- Obrana víry a kritika nepřátel reformy.
+- **Petr Chelčický – O boji duchovním**:
+  - Odmítání násilí a války.
+  - Kritika církve i světské moci.
+
+### Písně
+- Husitské bojové a duchovní písně motivovaly bojovníky.
+- **Ktož jsú boží bojovníci**: nejznámější husitská píseň, volání do zbraně a výraz víry.
+
+### Kroniky
+- Zaznamenávání a interpretace historických událostí.
+- **Vavřinec z Březové – Husitská kronika**: důležitý pramen o průběhu husitských válek.
+
+## Významné osobnosti
+- **Jan Hus** – reformátor, kazatel, upálen v Kostnici roku 1415.
+- **Petr Chelčický** – náboženský myslitel, zastánce nenásilí.
+- **Vavřinec z Březové** – kronikář husitské doby.
+
+## Shrnutí
+- Literatura této doby měla náboženský, politický a národní charakter.
+- Sloužila jako nástroj reformy a odporu proti oficiální církvi.
+- Klíčovým jazykem byla čeština, což posílilo národní uvědomění a dostupnost textů pro lid.

@@ -53,4 +53,4 @@ Shrnutí
 - Některá slova se liší pravopisem podle významu.
 
 - Trénuj a uvidíš, že ti to půjde stále lépe!
-****
+
