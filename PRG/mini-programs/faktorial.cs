@@ -1,13 +1,30 @@
-// this program calculates the factorial of a number //
+﻿// this program calculates the factorial of a number //
 
 Console.WriteLine("Enter a number:");
-int num = Int32.Parse(Console.ReadLine());
+int number = Int32.Parse(Console.ReadLine());
 
-int result = 1;
-for (int i = 1; i <= num; i++)
+if (number == 0)
 {
-    result *= i;
-    Console.WriteLine($"{i}! = {result}");
-}   
+    Console.WriteLine("Faktoriál čísla 0 neexistuje.");
+}
+else
+{
+    for (int i = 1; i <= number; i++)
+    {
+        int result = 1;
+        string details = "";
 
-Console.WriteLine($"The factorial of {num} is {result}.");
+        for (int j = 1; j <= i; j++)
+        {
+            result *= j;
+            details += j;
+
+            if (j != i)
+            {
+                details += " * ";
+            }
+        }
+
+        Console.WriteLine($"{i}! = {details} = {result}");
+    }
+}
