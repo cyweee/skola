@@ -164,3 +164,59 @@ Jan Hus byl významný kazatel, reformátor, filozof a rektor Univerzity Karlovy
 - Literatura této doby měla náboženský, politický a národní charakter.
 - Sloužila jako nástroj reformy a odporu proti oficiální církvi.
 - Klíčovým jazykem byla čeština, což posílilo národní uvědomění a dostupnost textů pro lid.
+****
+
+# Literatura v polipanské období
+
+## Historické pozadí
+- Období vlády Jiřího z Poděbrad (1458–1471), tzv. „krále husitského“.
+- Ukončení hlavních bojů, snaha o náboženské smíření mezi kališníky a katolíky.
+- Společnost se stabilizuje, což umožňuje rozvoj kultury a vzdělanosti.
+- Dochází k návratu latiny jako jazyka učenosti, ale čeština zůstává důležitá.
+
+## Hlavní rysy literatury
+- Pokračování v náboženských tématech, ale větší důraz na **etiku, vzdělání a humanismus**.
+- Vznikají díla zaměřená na **morální poučení**, **filozofii**, **právo** a **dějiny**.
+- Literatura se více píše pro **šlechtu a vzdělané vrstvy**.
+
+## Významné osobnosti a díla
+
+### Petr Chelčický
+- **Síť víry pravé**
+  - Alegorické dílo – síť představuje pravou křesťanskou víru, kterou roztrhali mocní lidé (vládcové, papež, biskupové).
+  - Kritika násilí, bohatství církve a sociální nespravedlnosti.
+  - Odmítání rozdělení společnosti na „tři stavy“ (duchovenstvo, šlechta, pracující lid) – podle něj všichni lidé mají být si rovni.
+
+- **O trojím lidu**
+  - Rozvíjí myšlenku ze Sítě víry pravé.
+  - Odmítá tehdejší společenské rozvrstvení.
+  - Tvrdí, že rozdělení lidstva na tři stavy (páni, duchovní a pracující) je proti evangeliu.
+
+- **Postila**
+  - Soubor výkladů k evangeliím, určený k náboženskému poučení.
+  - Zaměřuje se na prosté věřící, snaží se jim přiblížit křesťanské hodnoty bez prostředníků (např. kněží).
+
+---
+
+### Viktorin Kornel ze Všehrd
+- **Knihy devatery**
+  - Devět knih o českém zemském právu.
+  - Psal česky, aby bylo právo srozumitelné široké veřejnosti.
+  - Hájí spravedlnost, rovnost před zákonem, ochranu slabších (např. žen, sirotků).
+  - Ovlivněno humanistickým myšlením – důraz na rozum, jazyk a spravedlnost.
+
+---
+
+### Jan Rokycana
+- **Kázání a náboženské texty**
+  - Dochovaly se především jeho kázání, která měla vzdělávací i duchovní účel.
+  - Hlavní témata: víra, mravnost, křesťanský život bez přepychu a násilí.
+  - Snaží se udržet jednotu utrakvistického hnutí a vést věřící ke smíření a pokoji.
+  - Podporoval čtení Bible v češtině a náboženské vzdělání laiků.
+
+---
+
+## Shrnutí k dílům
+- **Chelčický**: radikální kritik moci a násilí, důraz na rovnost a nenásilí.
+- **Všehrd**: právní humanista, který chtěl přiblížit právo lidem a bojoval za spravedlnost.
+- **Rokycana**: náboženský vůdce zaměřený na smířlivý výklad víry a vzdělávání lidu.
