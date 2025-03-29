@@ -78,4 +78,4 @@ Italský spisovatel, filozof a politik, považován za *"otce italského jazyka"
 - **Eseje** (*Essais*) – filozofické a morální úvahy.
   - Zaměřuje se na **zkoumání člověka, jeho myšlení a jednání**.
   - Důraz na **skepticismus a osobní zkušenost**.
-  - Kritizuje **dogmata a předsudky**.
+  - Kritizuje **dogmata a předsudky**
