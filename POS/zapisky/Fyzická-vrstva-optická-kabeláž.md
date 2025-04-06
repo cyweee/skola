@@ -15,7 +15,7 @@
 - Konektory a spojky – zajišťují spojení kabelů mezi zařízeními.
 ***
 ## Složení optického kabelu :
-![opticke vlakno](../img/optickevlakno.png)
+![opticke vlakno](../../img/optickevlakno.png)
 ***
 ## 3. Typy optických kabelů
 
