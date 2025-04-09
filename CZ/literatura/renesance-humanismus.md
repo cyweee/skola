@@ -20,7 +20,7 @@ Je to také umělecký styl – malíři a architekti se inspirovali starověký
     - **David** (socha)
     - **Sixtinská kaple** (malba na stropě)
 
-### Ренesans začal v Itálii z několika důvodů:
+### Renesance začal v Itálii z několika důvodů:
 
 1. Ekonomický rozvoj: Obchod a banky, zejména ve Florencii, vytvořily bohaté prostředí pro sponzorování umění a pro vytváření vědeckých a kulturních projektů.
 
@@ -49,10 +49,24 @@ Je to také umělecký styl – malíři a architekti se inspirovali starověký
 Italský spisovatel, filozof a politik, považován za *"otce italského jazyka"*. Jeho dílo mělo velký vliv na formování italské literatury a kultury.
 
 #### **Božská komedie** (*La Divina Commedia*)
-- Epická báseň napsaná ve 14. století.
-- Rozdělena do tří částí: **Peklo** (*Inferno*), **Očistec** (*Purgatorio*), **Ráj** (*Paradiso*).
-- Alegorické putování duše k Bohu, popisuje posmrtný život.
-- Používá tzv. *terza rima* – specifické rýmování (aba, bcb, cdc...).
+„Božská komedie“ je epická báseň napsaná ve 14. století od Danteho Alighieriho o putování duše Peklem, Očistcem a Rájem.
+
+**Danteho doprovází:**
+
+- Vergilius (moudrost) v Pekle a Očistci – byl anticky filosof. V „Božské komedii“ symbolizuje lidskou moudrost schopnost, která vede Danta na jeho cestě skrze Peklo a Očistec.
+- Beatrice (víra a božská láska) v Ráji – byla reálná žena, kterou Dante znal v mladosti a která se stala jeho múzou. V díle představuje symbol duchovní lásky a božské inspirace, která vede Danta k osvícení v Ráji.
+
+> Vergilius provedl Danteho peklem a očistcem, protože byl symbolem rozumu, ale nemohl vstoupit do ráje, protože byl smrtelný. Beatrice, jeho láska, která již zemřela, ho vedla do ráje, symbolizující božskou lásku a víru.
+
+
+Cesta symbolizuje přechod od hříchu k duchovnímu osvícení.
+
+**Na začátku potkává tři zvířata:**
+
+- Leopard – **smyslnost,**
+- Lev – **pýcha,**
+- Vlčice – **lakomství.**
+
 - Obsahuje kritiku soudobé společnosti, církve a politiky.
 
 ### Francesco Petrarca `Francesco Petrarka` (1304–1374)
@@ -80,6 +94,7 @@ Italský spisovatel, filozof a politik, považován za *"otce italského jazyka"
 
 ### François Villon `Fransoa Vijon` (1431–1463?)
 - Francouzský básník, bohém, tulák a zločinec.
+> **Bohém je člověk, který žije netradičním způsobem, často odmítá běžné společenské normy. Obvykle se věnuje umění, literatuře nebo hudbě a klade důraz na svobodu, kreativitu a individualitu**
 - Psal **balady** a lyrickou poezii.
 
 #### **Díla**
@@ -156,10 +171,7 @@ Objevuje se i **drama** a divadelní hry.
 
 ### Lazarillo de Tormes `Lazariyo de Tormes`
 
-- Anonymní dílo, považováno za první **pikareskní román**.
-- Hlavní hrdina: **Lazaro**, chudý chlapec, který slouží různým pánům a přežívá pomocí vtipu a podvodů.
-- Kritika společnosti, církve a pokrytectví.
-
+Napsal pikareskní román o Lázarovi, chudém chlapci, který slouží různým pánům a přežívá pomocí svého důvtipu a podvodů.
 
 ---
 
@@ -167,49 +179,47 @@ Objevuje se i **drama** a divadelní hry.
 
 ### Geoffrey Chaucer `Džefry Čósr` (asi 1343–1400)
 
-#### Základní informace
-
-- Narodil se v Londýně ve středně bohaté rodině obchodníků s vínem.
-- Sloužil jako dvorní úředník, diplomat a byl často na cestách po Evropě – což ovlivnilo jeho literární styl.
-- Uměl latinsky, francouzsky i italsky – byl ovlivněn Dantem, Boccacciem a Petrarkou.
-- Canterburské povídky psal až na konci života, ale nestihl je dokončit.
-- Byl pohřben ve Westminsterském opatství, čímž založil tradici Poet’s Corner – místo, kde jsou pohřbeni slavní britští autoři.
-
 #### důležitá informace
 
-- Jeden z prvních významných anglických básníků.
-- Považován za "otce anglické literatury".
-- Psal ve střední angličtině.
-- Nejznámější dílo: **"Canterburské povídky"** (*The Canterbury Tales*)
-  - **Děj**: Skupina poutníků si cestou do Canterbury vypráví příběhy.
-  - Kombinace různých žánrů – humor, morální ponaučení, láska, kritika společnosti.
-  - Každý příběh odráží charakter vypravěče.
+byl anglický básník, spisovatel a úředník. Je považován za "otce anglické literatury", protože jako jeden z prvních psal významná literární díla v angličtině, ne v latině nebo francouzštině.
 
+Jeho nejslavnější dílo je:
+
+**Canterburské povídky (The Canterbury Tales)**
+- Sbírka příběhů, které vypráví skupina poutníků cestujících do Canterbury.
+- Každá postava vypráví jiný příběh – od vtipných a milostných až po vážné a náboženské.
+- Dílo ukazuje různé vrstvy středověké společnosti a jejich názory, problémy a charakter.
+
+Díky tomu, že psal v angličtině, pomohl rozvoji anglického jazyka jako literárního jazyka. V jeho dílech najdeme humor, kritiku společnosti i lidskou různorodost.
 ### William Shakespeare `Viljam Šekspír` (1564–1616)
 
-#### Základní informace
-
-- Narodil se ve Stratfordu nad Avonou, jeho otec byl rukavičkář.
-- O jeho dětství a vzdělání není mnoho známo, ale pravděpodobně chodil na latinskou školu.
-- Oženil se ve 18 letech s Anne Hathawayovou, měli spolu 3 děti.
-- Přestěhoval se do Londýna, kde se stal hercem, dramatikem a spolumajitelem divadla The Globe.
-- Jeho tvorba se dělí na tři období: rané hry (komedie), tragédie a pozdní romantické hry.
-- Psal pro široké publikum – od královského dvora až po obyčejné diváky.
-- Po návratu do Stratfordu investoval do nemovitostí a stal se váženým občanem.
-- Zemřel ve věku 52 let – pravděpodobně v den svých narozenin.
-
 #### důležitá informace
 
-- Nejvýznamnější dramatik světové literatury.
-- Psal **tragédie**, **komedie**, **historické hry** i **sonety**.
-- Jeho jazyk měl obrovský vliv na angličtinu.
+-byl významný anglický dramatik a básník. Je považován za jednoho z největších autorů v dějinách světové literatury.
 
-- **Nejznámější tragédie:**
-  - **Hamlet** – princ pomstí smrt svého otce, vnitřní konflikt a otázka "Být, či nebýt".
-  - **Romeo a Julie** – tragický příběh dvou mladých milenců ze znepřátelených rodin.
-  - **Macbeth** – příběh touhy po moci a její následky.
+Jeho tvorba se dělí do dvou hlavních období:
 
-- **Komedie:**
-  - **Sen noci svatojánské**, **Jak se vám líbí**, **Zkrocení zlé ženy** – hry plné převleků, humoru a lásky.
+**Do roku 1599 – psal hlavně historické hry a komedie.**
+- Příklady historických her:
+
+1.  **Jindřich IV.** – příběh o boji o trůn, válce a napjatém vztahu mezi králem a jeho synem.
+
+1.  **Richard III.** – krutý a manipulativní šlechtic se chce stát králem a ničí vše, co mu stojí v cestě.
+
+- Od roku 1599 do roku 1616 – psal hlavně tragédie, které jsou jeho nejslavnější díla.
+Příklady tragédií:
+
+1. **Hamlet** – dánský princ chce pomstít smrt svého otce a odhalit pravdu, ale propadá pochybnostem a vnitřnímu boji.
+
+1. **Romeo a Julie** – tragická láska dvou mladých lidí ze znepřátelených rodin končí smrtí.
+
+1. **Macbeth** – skotský vojevůdce spáchá vraždu kvůli moci a pomalu se propadá do šílenství.
 
 - Psal také **154 sonetů** – o lásce, kráse, času a smrti.
+---
+V 19. století byl hlavním a téměř jediným českým překladatelem Shakespearových děl Josef Václav Sládek. Jeho překlady pomohly zpřístupnit Shakespearovu tvorbu českému publiku.
+
+Dnes je nejznámějším překladatelem Martin Hilský, který přeložil celé Shakespearovo dílo do moderní češtiny.
+
+
+> Sonet - Veršový (strofický) útvar, nejznámější pevná forma evropské lyriky. Má 14 veršů ve 4 slokách (po 4,4,3,3 verších). Kvarteta (4veršové sloky) mívají obkročný nebo střídavý rým.
