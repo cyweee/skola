@@ -1,11 +1,43 @@
 # Renesance a humanismus
 
 ## Období a původ
-Renesance a humanismus se objevily ve 14. století v Itálii a postupně se šířily do dalších evropských zemí. **Renesance** znamená *"znovuzrození"* a označuje obrodu antické kultury, umění a vědy. **Humanismus** kladl důraz na člověka, jeho schopnosti a poznání.  
+### Renesance (znovuzrození)
 
-V renesanční době docházelo k rozvoji vědy, techniky, literatury a umění, a to i díky vynálezu knihtisku Johannem Gutenbergem v 15. století.  
+**Renesance** je období v dějinách přibližně od 14. do 17. století, kdy lidé znovu objevovali umění, vědu a myšlenky starověkého Řecka a Říma.
+Předtím, ve středověku, byla nejdůležitější víra a církev, ale v době renesance se lidé začali více zajímat o člověka, jeho rozum, tvořivost a znalosti.
+Je to také umělecký styl – malíři a architekti se inspirovali starověkým Řeckem a Římem.
+**Humanismus** byl myšlenkový směr, který kladl důraz na člověka, jeho rozum a schopnosti, a šel ruku v ruce s renesancí jako její duchovní základ.
 
-Renesanční myšlení se inspirovalo antickými filozofy, jako byli **Platón, Aristotelés a Seneca**. Kromě toho se větší důraz kladl na lidskou individualitu, rozum a kritické myšlení.
+### Období všestranných lidí, například takových jako:
+
+- Leonardo da Vinci 
+  - Kdo to byl: malíř, učenec, vynálezce
+    - **Mona Lisa** (portrét ženy)
+    - **Poslední večeře** (Na obraze je Ježíš s dvanácti apoštoly při poslední večeři, kdy říká, že ho někdo zradí.)
+
+- Michelangelo
+  - Kdo to byl: sochař, malíř, architekt, básník
+    - **David** (socha)
+    - **Sixtinská kaple** (malba na stropě)
+
+### Ренesans začal v Itálii z několika důvodů:
+
+1. Ekonomický rozvoj: Obchod a banky, zejména ve Florencii, vytvořily bohaté prostředí pro sponzorování umění a pro vytváření vědeckých a kulturních projektů.
+
+2. Geografická poloha: Itálie byla v centru Evropy, což usnadňovalo obchod a kulturní výměnu s jinými zeměmi.
+
+3. Města, ve kterých se rozvíjel renesans:
+- Florencie
+- Benátky
+- Řím
+
+### Znaky renesance v literatuře:
+
+1. Obrození antiky: Literatura začala čerpat inspiraci z antických textů, filozofie, mytologie a estetiky. Autoři usilovali o návrat k antickým řeckým a římským kanonům.
+
+2. Psaní v rodných jazycích: Na rozdíl od středověku, kdy vše bylo psáno latinsky, v renesančním období autoři začali psát v rodných jazycích (italsky, francouzsky, španělsky a dalších). To umožnilo širšímu okruhu lidí přístup k literatuře.
+
+3. Lidský rozum a individualismus: V literatuře se zaměření přesunulo z náboženských témat na člověka, jeho myšlenky a pocity, což se projevovalo v dílech, která oslavovala lidskou přirozenost, rozum a svobodu.
 
 ---
 
@@ -35,6 +67,7 @@ Italský spisovatel, filozof a politik, považován za *"otce italského jazyka"
 
 ### Giovanni Boccaccio `Džovanni Bokačo` (1313–1375)
 - Autor novel a zakladatel realistického vyprávění.
+> **Novela je střední prozaický žánr. Vystupuje v ní málo postav, odehrává se v krátkém časovém úseku a má výraznou pointu.**
 
 #### **Dekameron**
 - Sbírka **100 novel**, kde deset lidí vypráví příběhy během morové epidemie ve Florencii.
@@ -50,21 +83,26 @@ Italský spisovatel, filozof a politik, považován za *"otce italského jazyka"
 - Psal **balady** a lyrickou poezii.
 
 #### **Díla**
-- *Velký testament* (*Le Grand Testament*), *Malý testament* (*Le Petit Testament*).
+- **Velký testament** (), **Malý testament** ().
   - Jeho poezie je **melancholická, ale zároveň ironická**.
+- Villonské balady
+  - Villon je známý také jako autor villonských balad, což je specifický druh balady s pevnou strukturou.
+    - Balada se dělí na 4 sloky.
+    - První 3 sloky mají 7-12 veršů a končí refrénem (`opakovaná část písně nebo básně, následující obvykle po každé sloce`). 
+    - Poslední sloka má o polovinu méně veršů než předchozí.
 
 ### François Rabelais `Fransoa Rable` (1494–1553)
 - Spisovatel, humanista, satirik.
 - Psal groteskní romány, kritizoval společnost.
 
 #### **Díla**
-- **Gargantua a Pantagruel** – satirické příběhy obrů.
+- **Gargantua a Pantagruel** – satirické příběhy obrů. (královský rod Obrů)
   - Kritizuje **scholastickou vědu, církev a politiku**.
   - Používá lidový jazyk a humor.
 
 ### Pierre de Ronsard `Pjer de Ronsar` (1524–1585)
 - Francouzský renesanční básník.
-- Psal **milostnou a přírodní lyriku**.
+- Psal **milostne poezie**.
 
 #### **Díla**
 - *Lásky* (*Les Amours*), *Ody* (*Odes*).
