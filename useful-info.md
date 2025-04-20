@@ -17,5 +17,8 @@
 6. [Jak funguje procesor?](https://www.youtube.com/watch?v=BGmb6EEy9Es)
 7. [CPU Architecture - AQA GCSE Computer Science](https://www.youtube.com/watch?v=IEYFlGLAhyo)
 8. [CPU Cache Explained - What is Cache Memory?](https://www.youtube.com/watch?v=yi0FhRqDJfo&t=43s)
+9. [Explaining RAM](https://www.youtube.com/watch?v=PVad0c2cljo&t=5s)
+10. [ SSD vs Hard Drive vs Hybrid Drive ](https://www.youtube.com/watch?v=1cyMTl_QXSc)
+11. [How do Hard Disk Drives Work? 💻💿🛠](https://www.youtube.com/watch?v=wtdnatmVdIg)
 
 ****
