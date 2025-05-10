@@ -216,7 +216,7 @@ Pro základní přenos je nutné mít dva vodiče: signálový a zemní (referen
   - FM (frekvenční) – odolnější vůči rušení.
   - PM (fázová) – využívá změnu fáze signálu.
 
-![AM-FM-PM-MODULATIOM](../../img/amfmpm.png)
+![AM-FM-PM-MODULATIOM](../../../img/amfmpm.png)
 
 Fázová modulace (PSK) je odolnější, protože šum má malý vliv na změnu fáze signálu. Změnit fázi je mnohem těžší než změnit amplitudu, takže data zůstávají stabilnější i v rušném prostředí.
 
@@ -269,7 +269,7 @@ Max. délka kabelu v běžné LAN (TP) je 100 m podle norem (např. 90 m pevnéh
 4. Totální odraz:
 - Když je úhel dopadu větší než kritický, světlo se vůbec neláme ven, ale celé se odrazí zpátky. Tento jev se využívá například v optických vláknech.
 
-![sneluv-zakon](../../img/sneluv-zakon.jpg)
+![sneluv-zakon](../../../img/sneluv-zakon.jpg)
 
 
 ## 11. Optické vlákno – stavba a materiál
