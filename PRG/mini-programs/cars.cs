@@ -4,37 +4,54 @@
 //   | 2026 = 1000$ - 10% = cena za 2026 |
 //   | 2027 = cena za 2026 - 10% = cena za 2027 |
 
-(string car, int price, int pokles)[] cars = {
-    ("Škoda", 30000, 10),
-    ("Tesla", 100000, 12),
-    ("Citroën", 25000, 15)
-};
+Console.Write("Zadej počet aut: ");
+int carCount = int.Parse(Console.ReadLine());
 
-Console.WriteLine($"Délka pole = {cars.Length}");
-Console.WriteLine("Vyberte auto a jeho pokles v ceně:");
+string[] carNames = new string[carCount];
+int[] carInitialPrices = new int[carCount];
+int[] carDepreciations = new int[carCount];
 
-for (int i = 0; i < cars.Length; i++)
+for (int i = 0; i < carCount; i++)
 {
-    Console.WriteLine($"{i + 1}. {cars[i].car} (Pokles: {cars[i].pokles}%)");
+    Console.Write($"Zadej název {i + 1}. auta: ");
+    carNames[i] = Console.ReadLine();
+
+    Console.Write($"Zadej cenu {i + 1}. auta: ");
+    carInitialPrices[i] = int.Parse(Console.ReadLine());
+
+    Console.Write($"Zadej roční odpis (v %): ");
+    carDepreciations[i] = int.Parse(Console.ReadLine());
 }
 
-Console.Write("\nVyberte číslo auta: ");
-int choice = int.Parse(Console.ReadLine()) - 1;
+Console.Write("\nZadej délku používání aut v letech: ");
+int years = int.Parse(Console.ReadLine());
 
-if (choice < 0 || choice >= cars.Length)
+
+Console.WriteLine("\nVýpis cen aut podle roku:");
+Console.Write("Rok".PadRight(8));
+foreach (var name in carNames)
 {
-    Console.WriteLine("\nNeplatná volba, zkuste to znovu.");
-    return;
+    Console.Write(name.PadRight(15));
 }
+Console.WriteLine();
+
+Console.WriteLine(new string('-', 10 + 15 * carCount));
 
 int currentYear = DateTime.Now.Year;
-var selectedCar = cars[choice];
 
-Console.WriteLine($"\n[{selectedCar.car}]");
-int currentPrice = selectedCar.price;
-
-for (int year = currentYear; year <= currentYear + 5; year++)
+for (int year = 0; year < years; year++)
 {
-    Console.WriteLine($"    {year} - {currentPrice}$");
-    currentPrice -= currentPrice * selectedCar.pokles / 100;
+    Console.Write($"{(currentYear + year)}".PadRight(8));
+
+    for (int i = 0; i < carCount; i++)
+    {
+        double currentPrice = carInitialPrices[i];
+        for (int y = 0; y <= year; y++)
+        {
+            currentPrice -= currentPrice * carDepreciations[i] / 100.0;
+        }
+
+        Console.Write($"{(int)currentPrice}".ToString().PadRight(15));
+    }
+    Console.WriteLine();
 }
