@@ -1,57 +1,66 @@
-﻿// pole nazev aut (str), pole cen (int), pole procentni pokles (int)
-//    [TESLA]
-//   | 2025 = 1000$ |
-//   | 2026 = 1000$ - 10% = cena za 2026 |
-//   | 2027 = cena za 2026 - 10% = cena za 2027 |
+﻿Console.Write("Zadej počet aut: ");
+int pocetAut = int.Parse(Console.ReadLine());
 
-Console.Write("Zadej počet aut: ");
-int carCount = int.Parse(Console.ReadLine());
+string[] nazvyAut = new string[pocetAut];
+int[] cenyAut = new int[pocetAut];
+int[] odpisyAut = new int[pocetAut];
 
-string[] carNames = new string[carCount];
-int[] carInitialPrices = new int[carCount];
-int[] carDepreciations = new int[carCount];
-
-for (int i = 0; i < carCount; i++)
+for (int i = 0; i < pocetAut; i++)
 {
-    Console.Write($"Zadej název {i + 1}. auta: ");
-    carNames[i] = Console.ReadLine();
+    Console.Write("Zadej název auta na pozici číslo " + (i + 1) + ": ");
+    nazvyAut[i] = Console.ReadLine();
 
-    Console.Write($"Zadej cenu {i + 1}. auta: ");
-    carInitialPrices[i] = int.Parse(Console.ReadLine());
+    Console.Write("Zadej cenu auta na pozici číslo " + (i + 1) + ": ");
+    cenyAut[i] = int.Parse(Console.ReadLine());
 
-    Console.Write($"Zadej roční odpis (v %): ");
-    carDepreciations[i] = int.Parse(Console.ReadLine());
+    Console.Write("Zadej odpis auta na pozici číslo " + (i + 1) + " (v %): ");
+    odpisyAut[i] = int.Parse(Console.ReadLine());
 }
 
-Console.Write("\nZadej délku používání aut v letech: ");
-int years = int.Parse(Console.ReadLine());
-
-
-Console.WriteLine("\nVýpis cen aut podle roku:");
-Console.Write("Rok".PadRight(8));
-foreach (var name in carNames)
-{
-    Console.Write(name.PadRight(15));
-}
 Console.WriteLine();
+Console.Write("Zadej počet let sledování: ");
+int pocetLet = int.Parse(Console.ReadLine());
 
-Console.WriteLine(new string('-', 10 + 15 * carCount));
+Console.WriteLine("\nVývoj cen aut v jednotlivých letech:");
+Console.Write("Rok".PadRight(8));
 
-int currentYear = DateTime.Now.Year;
-
-for (int year = 0; year < years; year++)
+for (int j = 0; j < pocetAut; j++)
 {
-    Console.Write($"{(currentYear + year)}".PadRight(8));
+    Console.Write(nazvyAut[j].PadRight(15));
+}
 
-    for (int i = 0; i < carCount; i++)
+Console.WriteLine();
+Console.WriteLine("----------------------------------------------");
+
+int aktualniRok = DateTime.Now.Year;
+double[,] cenyVCase = new double[100, 100];
+
+for (int i = 0; i < pocetAut; i++)
+{
+    cenyVCase[0, i] = cenyAut[i];
+}
+
+for (int rok = 0; rok < pocetLet; rok++)
+{
+    if (rok > 0)
     {
-        double currentPrice = carInitialPrices[i];
-        for (int y = 0; y <= year; y++)
+        for (int i = 0; i < pocetAut; i++)
         {
-            currentPrice -= currentPrice * carDepreciations[i] / 100.0;
-        }
+            cenyVCase[rok, i] = cenyVCase[rok - 1, i] * (1 - odpisyAut[i] / 100.0);
 
-        Console.Write($"{(int)currentPrice}".ToString().PadRight(15));
+            if (cenyVCase[rok, i] < 0.1) cenyVCase[rok, i] = 0;
+        }
     }
+
+    Console.Write((aktualniRok + rok).ToString().PadRight(8));
+
+    for (int i = 0; i < pocetAut; i++)
+    {
+        string s = ((int)cenyVCase[rok, i]).ToString();
+        Console.Write(s.PadRight(15));
+    }
+
     Console.WriteLine();
 }
+
+Console.ReadLine();
