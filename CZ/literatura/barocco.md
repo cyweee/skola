@@ -29,17 +29,17 @@
 ---
 ### 4. Autoři:
 
-#### Pedro Calderón de la Barca (1600–1681, Španělsko)
+#### Pedro Calderón de la Barca `Pedro Kalderón de la Barka` (1600–1681, Španělsko)
 - Autor náboženských a filozofických dramat
 - Styl: dramatický, obrazný jazyk, morální konflikty
 - Hlavní dílo: Život je sen (La vida es sueño) – otázka svobody a osudu
 
-#### John Milton (1608–1674, Anglie)
+#### John Milton `Džon Milton` (1608–1674, Anglie)
 - Epická poezie s náboženským a filozofickým obsahem
 - Hlavní dílo: Ztracený ráj (Paradise Lost) – pád Lucifera, Adam a Eva
 - Žánr: epos, biblické a alegorické motivy
 
-#### Hans Jakob Christoffel von Grimmelshausen (1621–1676, Německo)
+#### Hans Jakob Christoffel von Grimmelshausen `Hans Jakop Christofel fon Grimmelshauzen ` (1621–1676, Německo)
 - Nejvýznamnější německý barokní prozaik
 - Dílo: Dobrodružný Simplicius Simplicissimus
 - Satirický a kritický román o třicetileté válce, lidské hlouposti a utrpení
