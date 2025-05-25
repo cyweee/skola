@@ -61,9 +61,26 @@
 ## 6. V čem se liší topologie hvězdicová a stromová? Vysvětlete s pomocí obrázku.
 
 - Hvězdicová (star):
-    - Všechna zařízení jsou připojena k jednomu centrálnímu uzlu (switch nebo hub).
-- Hvězdicová (star):
-    - Všechna zařízení jsou připojena k jednomu centrálnímu uzlu (switch nebo hub).
+    - Každé konečné zařízení je připojeno přímo k jednomu centrálnímu zařízení, obvykle switchi nebo hubu.
+    - Tvoří se tak jedna centrální hvězda, kde všechny komunikace procházejí tímto uzlem.
+    - Je vhodná pro malé a středně velké sítě.
+- **Vlastnosti:**
+  - Přehledná, snadno spravovatelná.
+  - Pokud selže koncové zařízení nebo jeho kabel – síť funguje dál.
+  - Pokud selže centrální uzel – celá síť je nefunkční.
+
+- Stromová (tree):
+  - Stromová topologie je kombinací více hvězdicových topologií, propojených do hierarchické struktury (jako kořen → větve → listy).
+  - Obsahuje více úrovní přepínačů (switchů) – hlavní páteřní switch se napojuje na další přepínače, a ty dále na zařízení.
+- **Vlastnosti:**
+  - Umožňuje rozšiřování sítě (škálovatelnost).
+  > - ### Hvězdicová topologie umožňuje rozšiřování sítě, ale s omezeními.
+  > - Ano, můžeš ji rozšířit – například přidat více zařízení ke switchi
+  >   - Počet portů na centrálním zařízení (switchi) je omezený.
+  > - Stromová topologie:
+  >   - Je navržena přímo pro škálování – pomocí více úrovní přepínačů:
+  >   - Můžeš přidávat nové „větve“ (switche) pod jiné. Je to logicky i fyzicky přizpůsobené pro větší sítě.
+  - Výpadek jednoho switche ovlivní jen část sítě, ne celou.
 > Rozdíl: Hvězda = jeden střed. Strom = více úrovní přepínačů.
 ---
 
@@ -181,14 +198,14 @@ Je organizovaný systém kabelů v budově (např. kanceláři, škole nebo dom�
 - RJ-45 (Registered Jack 45):
 8p8c konektor používaný pro Ethernet.
 - Pořadí barev T568B (přímý kabel):
-  - 1. Bílo-oranžová
-  - 2. Oranžová
-  - 3. Bílo-zelená
-  - 4. Modrá
-  - 5. Bílo-modrá
-  - 6. Zelená
-  - 7. Bílo-hnědá
-  - 8. Hnědá
+  - 1. ⬜🟧
+  - 2. 🟧
+  - 3. ⬜🟩
+  - 4. 🟦
+  - 5. ⬜🟦
+  - 6. 🟩
+  - 7. ⬜🟫
+  - 8. 🟫
 - Přímý kabel: pro připojení PC → switch/router.
 - Křížený (crossover) kabel: pro připojení PC ↔ PC nebo switch ↔ switch (starší zařízení).
 - Krimpovací kleště: nástroj pro upevnění konektoru RJ-45 na TP kabel.
