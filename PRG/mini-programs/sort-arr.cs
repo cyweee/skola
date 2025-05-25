@@ -1,17 +1,30 @@
-﻿int[] numbers = { 5, 2, 8, 1, 3 };
+﻿int[] pole = { 12, 9, 32, 21, 17 };
 
-Console.WriteLine("Původní pole:");
-for (int i = 0; i < numbers.Length; i++)
+Console.WriteLine("před");
+for (int i = 0; i < pole.Length; i++)
 {
-    Console.Write(numbers[i] + " ");
+    Console.Write(pole[i] + " ");
 }
-Console.WriteLine();
 
-Array.Sort(numbers);
+Console.WriteLine("\n-----------");
 
-Console.WriteLine("Seřazené pole:");
-for (int i = 0; i < numbers.Length; i++)
+for (int i = 0; i < pole.Length; i++)
 {
-    Console.Write(numbers[i] + " ");
+    for (int j = 0; j < pole.Length - 1; j++)
+    {
+        if (pole[j] > pole[j + 1])
+        {
+            int a = pole[j];
+            pole[j] = pole[j + 1];
+            pole[j + 1] = a;
+        }
+    }
 }
-Console.WriteLine();
+
+Console.WriteLine("potom");
+for (int i = 0; i < pole.Length; i++)
+{
+    Console.Write(pole[i] + " ");
+}
+
+Console.ReadLine();
