@@ -9,12 +9,18 @@
 - Cíl: působit na city, vzbudit úžas, posílit víru.
 ---
 ### 2. Znaky baroka:
-- Odvrat od přírody (na rozdíl od renesance)
+- Odvrat od přírody (na rozdíl od renesance)  
+  - Baroko se odvrací od ideálu přírody, která byla v renesanci vnímána jako krásná a harmonická. Místo toho klade důraz na nadpřirozeno, duchovno a svět víry. Příroda už není vzorem dokonalosti.
 - Nedůvěra k rozumu – důraz na víru, cit, mystiku
+  - Zatímco renesance vyzdvihovala lidský rozum a poznání, baroko více důvěřuje víře a citům. Důležitou roli hraje náboženství, emoce, vnitřní prožitek a mystické vnímání světa.
 - Protiklady: světlo × tma, život × smrt
+  - Barokní umění miluje kontrasty – používají se silné protiklady, aby vyjádřily dramatičnost života. Například: dobro × zlo, nebe × peklo, hřích × spása. Pomáhá to zdůraznit vnitřní napětí a hlubší významy.
 - Nadměrná výzdoba, monumentalita
+  - Barokní architektura a umění jsou často velmi bohatě zdobené a velkolepé. Používají se zlato, mramor, fresky, křivky, světlo a stín – všechno má vyvolat úžas a duchovní prožitek.
 - Symbolismus, alegorie
+  - V baroku se často místo přímého sdělení používají symboly a alegorie – tedy obrazy a příběhy, které mají hlubší (často náboženský nebo morální) význam. Například lebka jako symbol smrti, světlo jako božská přítomnost.
 - Pocit marnosti světa (vanitas)
+  - Téma „vanitas“ (latinsky „marnost“) upozorňuje, že vše na světě je dočasné – mládí, krása, bohatství i sláva rychle pomíjejí. Umění má připomínat, že pravý smysl života je duchovní a věčný.
 ---
 ### 3. Umění v baroku:
 1. Malířství
