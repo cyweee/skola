@@ -135,7 +135,7 @@ Jeho komedie kritizovaly pokrytectví, hloupost, lakotu i snobství. Mezi jeho n
 
 ---
 
-## I. dějství – Expozice (Základní situace)
+## I. dějství – Expozice (Expozice)
 
 - Harpagon je bohatý, ale extrémně lakomý muž, posedlý penězi.
 - Jeho děti Cléante a Élise milují jiné, ale Harpagon jim chce domluvit výhodné sňatky.
@@ -144,7 +144,7 @@ Jeho komedie kritizovaly pokrytectví, hloupost, lakotu i snobství. Mezi jeho n
 
 ---
 
-## II. dějství – Stoupající akce (Rozvoj konfliktu)
+## II. dějství – Stoupající akce (Kolize)
 
 - Harpagon plánuje svatbu s Marianou a zároveň chce provdat Élise za bohatého Anselma.
 - Cléante se snaží Marianu získat pro sebe s pomocí zprostředkovatelky Frosine.
@@ -153,7 +153,7 @@ Jeho komedie kritizovaly pokrytectví, hloupost, lakotu i snobství. Mezi jeho n
 
 ---
 
-## III. dějství – Vyvrcholení (Klimax)
+## III. dějství – Vyvrcholení (Krize)
 
 - Harpagon ztrácí svou truhličku s penězi a propadá zoufalství.
 - Obviňuje všechny kolem sebe a žádá o vyšetřování.
@@ -162,7 +162,7 @@ Jeho komedie kritizovaly pokrytectví, hloupost, lakotu i snobství. Mezi jeho n
 
 ---
 
-## IV. dějství – Klesající akce (Krize)
+## IV. dějství – Klesající akce (Obrat)
 
 - Vyjde najevo, že Mariana a Valère jsou ztracení sourozenci a děti Anselma.
 - Anselme poznává své děti a chce, aby byli šťastní.
@@ -171,7 +171,7 @@ Jeho komedie kritizovaly pokrytectví, hloupost, lakotu i snobství. Mezi jeho n
 
 ---
 
-## V. dějství – Rozuzlení (Katastrofa)
+## V. dějství – Rozuzlení (Závěr)
 
 - Anselme souhlasí s úhradou svatebních výdajů.
 - Cléante se ožení s Marianou, Élise si vezme Valèra.
