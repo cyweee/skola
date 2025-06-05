@@ -60,28 +60,36 @@
 
 ## 6. V čem se liší topologie hvězdicová a stromová? Vysvětlete s pomocí obrázku.
 
-- Hvězdicová (star):
-    - Každé konečné zařízení je připojeno přímo k jednomu centrálnímu zařízení, obvykle switchi nebo hubu.
-    - Tvoří se tak jedna centrální hvězda, kde všechny komunikace procházejí tímto uzlem.
-    - Je vhodná pro malé a středně velké sítě.
-- **Vlastnosti:**
-  - Přehledná, snadno spravovatelná.
-  - Pokud selže koncové zařízení nebo jeho kabel – síť funguje dál.
-  - Pokud selže centrální uzel – celá síť je nefunkční.
+- Hvězdicová topologie (star):
+  - Všechny zařízení (PC, tiskárny...) jsou připojeny přímo k jednomu centrálnímu zařízení (např. switch).
+  → Výpadek jednoho zařízení neovlivní ostatní.
 
-- Stromová (tree):
-  - Stromová topologie je kombinací více hvězdicových topologií, propojených do hierarchické struktury (jako kořen → větve → listy).
-  - Obsahuje více úrovní přepínačů (switchů) – hlavní páteřní switch se napojuje na další přepínače, a ty dále na zařízení.
-- **Vlastnosti:**
-  - Umožňuje rozšiřování sítě (škálovatelnost).
-  > - ### Hvězdicová topologie umožňuje rozšiřování sítě, ale s omezeními.
-  > - Ano, můžeš ji rozšířit – například přidat více zařízení ke switchi
-  >   - Počet portů na centrálním zařízení (switchi) je omezený.
-  > - Stromová topologie:
-  >   - Je navržena přímo pro škálování – pomocí více úrovní přepínačů:
-  >   - Můžeš přidávat nové „větve“ (switche) pod jiné. Je to logicky i fyzicky přizpůsobené pro větší sítě.
-  - Výpadek jednoho switche ovlivní jen část sítě, ne celou.
-> Rozdíl: Hvězda = jeden střed. Strom = více úrovní přepínačů.
+- Hvězdicová topologie (star):
+  - Všechny zařízení (PC, tiskárny...) jsou připojeny přímo k jednomu centrálnímu zařízení (např. switch).
+  → Výpadek jednoho zařízení neovlivní ostatní.
+
+
+**Obrázkové vysvětlení:**
+
+```markdown
+HVĚZDICOVÁ:
+        [PC1]
+          |
+[PC2]--[SWITCH]--[PC3]
+          |
+        [PC4]
+
+STROMOVÁ:
+               [ROOT SWITCH]
+               /     |     \
+         [SW1]   [SW2]   [SW3]
+         /  \      |      /  \
+     [PC] [PC]   [PC]   [PC] [PC]
+```
+
+> - Shrnutí:
+>   - Hvězdicová: všechno na jeden switch.
+>   - Stromová: víc úrovní, více switchů, hierarchie.
 ---
 
 ## 7. LAN, MAN, PAN, WAN – vysvětlit zkratky.
@@ -101,26 +109,26 @@
 ## 9. Model ISO/OSI, nakreslit obrázek, stručně popsat vrstvy.
 - ISO/OSI model má 7 vrstev – každá zajišťuje jinou funkci:
 
-| Vrstva | Název vrstvy                   | Funkce                                               |
-|:------:|:-------------------------------:|:----------------------------------------------------:|
-|   7    | Aplikační vrstva (Application)   | Poskytuje služby aplikacím (e-mail, přenos souborů). |
-|   6    | Prezentační vrstva (Presentation)| Převádí a šifruje data.                             |
-|   5    | Relační vrstva (Session)         | Navazuje, spravuje a ukončuje spojení.              |
-|   4    | Transportní vrstva (Transport)   | Spolehlivý přenos mezi zařízeními.                  |
-|   3    | Síťová vrstva (Network)          | Směrování a adresování paketů.                      |
-|   2    | Linková vrstva (Data Link)        | Přenos dat na úrovni rámců mezi zařízeními.         |
-|   1    | Fyzická vrstva (Physical)         | Přenos bitů přes fyzické médium.                    |
+| Vrstva | Název vrstvy                   |                                 Funkce                                 |
+|:------:|:-------------------------------:|:----------------------------------------------------------------------:|
+|   7    | Aplikační vrstva (Application)   |          Poskytuje služby aplikacím (e-mail, přenos souborů).          |
+|   6    | Prezentační vrstva (Presentation)|                        Převádí a šifruje data.                         |
+|   5    | Relační vrstva (Session)         |                 Navazuje, spravuje a ukončuje spojení.                 |
+|   4    | Transportní vrstva (Transport)   |                   Spolehlivý přenos mezi zařízeními.                   |
+|   3    | Síťová vrstva (Network)          |                     Směrování a adresování paketů.                     |
+|   2    | Linková vrstva (Data Link)        | Detekuje chyby, může je opravovat a řídí přístup k přenosovému médiu. Zajišťuje přenos dat ve formě rámců mezi zařízeními v jedné síti |
+|   1    | Fyzická vrstva (Physical)         |                    Přenos bitů přes fyzické médium.                    |
 
 ---
 
 ## 10. Model TCP/IP, nakreslit obrázek, stručně popsat vrstvy, porovnat s modelem ISO/OSI.
 
-| Vrstva |               Název vrstvy                |                     Funkce                     |               PDU               |
-|:------:|:-----------------------------------------:|:----------------------------------------------:|:-------------------------------:|
-|   4    |      Aplikační vrstva (Application)       | Poskytuje síťové služby aplikacím (HTTP, FTP). |            **Data**             |
-|   3    |      Transportní vrstva (Transport)       |       Spolehlivý přenos dat (TCP, UDP).        |           **Segment**           |
-|   2    |         Síťova vrstva (Internet)          |          Směrování paketů (IP, ICMP).          |      **Datagram (Paket)**       |
-|   1    | Vrstva síťového přístupu (Network Access) |   Přístup k fyzické síti (Ethernet, Wi-Fi).    | **Rámec (Frame) / Bity (Bits)** |
+| Vrstva |               Název vrstvy                |                                                                  Funkce                                                                  |             PDU             |
+|:------:|:-----------------------------------------:|:----------------------------------------------------------------------------------------------------------------------------------------:|:---------------------------:|
+|   4    |      Aplikační vrstva (Application)       |                                              Poskytuje síťové služby aplikacím (HTTP, FTP).                                              |          **Data**           |
+|   3    |      Transportní vrstva (Transport)       |                                                    Spolehlivý přenos dat (TCP, UDP).                                                     |         **Segment**         |
+|   2    |         Síťova vrstva (Internet)          |                                                       Směrování paketů (IP, ICMP).                                                       |        **Datagram**         |
+|   1    | Vrstva síťového přístupu (Network Access) | Detekuje chyby, může je opravovat a řídí přístup k přenosovému médiu. Zajišťuje přenos dat ve formě rámců mezi zařízeními v jedné síti.  Přenos bitů přes fyzické médium.|      **Frame / Bits**       |
 
 > TCP/IP je praktičtější a používaný v internetu, má 4 vrstvy
 ---
@@ -140,18 +148,18 @@ Je organizovaný systém kabelů v budově (např. kanceláři, škole nebo dom�
     ├── zásuvka 3 → tiskárna
     └── zásuvka 4 → Wi-Fi router
 ```
-> Patch panel, propojovací pole, je zpravidla zrdcadlo k datovým zásuvkám, od kterých vedou síťové (ethernet) kabely
+> Je to pasivní zařízení, které se používá v síťové infrastruktuře pro organizaci a správu kabelových spojení.
 ---
 ## 12. Vysvětlete pojmy synchronní přenos, asynchronní přenos, arytmický přenos. Co znamená pojem Manchester, u jakého přenosu dat ho používáme?
 
 - **Synchronní přenos:**
-  - Vysílající a přijímající zařízení používají stejný časovací signál
+  - Data se přenáší podle společného hodinového signálu – plynulý a přesně načasovaný tok dat.
 - **Asynchronní přenos:**
-  - Přenos nemá společný hodinový signál; data jsou obvykle odděleny start/stop bity
+  - Data se posílají po znacích se startovacim a stopovacim bitem – bez společného hodinového signálu.
 - **Arytmický přenos:**
-  - Přenos (často se nerozlišuje od asynchronního) znamená nepravidelný přenos bez stabilního rytmu
+  - Nepravidelný přenos dat, bez stálého časování nebo rytmu.
 - **Manchester:**
-  - Způsob kódování signálu, kde každý bit je rozdělen na dvě části s přechodem (0 = dolů, 1 = nahoru).
+  - Typ kódování signálu, kde každý bit je reprezentován změnou napětí. (0 = dolů, 1 = nahoru). Používá se u synchronního přenosu, např. v Ethernetu (10BASE-T).
 ---
 
 ## 13. Kolik vodičů potřebujeme u metalického vedení minimálně pro přenos dat? Proč?
@@ -164,11 +172,14 @@ Je organizovaný systém kabelů v budově (např. kanceláři, škole nebo dom�
 - **Základní pásmo (baseband):**
   - Data se přenáší přímo jako digitální signál bez změny frekvence. Např. Ethernet.
 - **Modulované pásmo (broadband):**
-  - Digitální signál se přeloží (moduluje) na nosnou analogovou frekvenci. Používá se např. v televizním přenosu nebo DSL.
+  - Data jsou přenesena pomocí modulace nosné vlny na vyšší frekvenci. To umožňuje přenos více kanálů přes jedno médium. Používá se např. v televizním přenosu nebo DSL.
 - Základní druhy modulace:
   1. AM (Amplitudová modulace) – mění se výška vlny
   2. FM (Frekvenční modulace) – mění se frekvence vlny
   3. PM (Fázová modulace) – mění se fáze signálu
+
+![am fm pm](../../../img/amfmpm.png)
+
 - Nejméně odolná vůči rušení je AM – protože změna amplitudy je snadno ovlivnitelná vnějším šumem.
 ---
 ## 15. Kroucená dvoulinka – vysvětlete rozdíl mezi UTP, STP, S-STP a FTP. Co znamená zkratka TP?
@@ -178,20 +189,31 @@ Je organizovaný systém kabelů v budově (např. kanceláři, škole nebo dom�
 2. STP (Shielded Twisted Pair) - **Má stínění**
 3. FTP (Foiled Twisted Pair) - **Celý kabel má fólii kolem všech párů**
 4. S-STP (Screened Shielded Twisted Pair) - **Kombinace fólie + stínění každého páru**
+> NAVIC
+> 
+>| Označení | Význam                          | Popis                                            |
+> |----------|--------------------------------|-------------------------------------------------|
+> | U/UTP    | Unshielded Twisted Pair         | Nestíněná kroucená dvojlinka                     |
+> | F/UTP    | Foiled Unshielded Twisted Pair  | Celková fólie kolem všech párů, páry nestíněné  |
+> | S/UTP    | Shielded Unshielded Twisted Pair| Celkový opletený štít kolem všech párů, páry nestíněné |
+> | F/FTP    | Foiled Foiled Twisted Pair      | Celková fólie + každá pár je stíněná fólií       |
+> | S/FTP    | Shielded Foiled Twisted Pair    | Celkový opletený štít + každá pár stíněná fólií  |
+> | SF/UTP   | Shielded Foiled Unshielded Pair | Celkový opletený štít + celková fólie, páry nestíněné |
+
 ---
 
 ## 16. Kroucená dvoulinka – dělení do kategorií. Napište nejdůležitější dnes používané kategorie TP kabelů včetně jejich parametrů
 - Kabely se dělí podle kategorie (Cat), která určuje rychlost, frekvenci a použití:
 
-| Kategorie | Max. rychlost         | Frekvence | Použití                                      |
-|-----------|------------------------|-----------|-----------------------------------------------|
-| **Cat 5** | 100 Mb/s               | 100 MHz   | Zastaralý, dříve používaný pro Ethernet       |
-| **Cat 5e**| 1 Gb/s (Gigabit)       | 100 MHz   | Dnes běžně používaný                          |
-| **Cat 6** | 1–10 Gb/s (na krátké vzd.) | 250 MHz   | Moderní LAN sítě                              |
-| **Cat 6a**| 10 Gb/s                | 500 MHz   | Delší trasy, vyšší odolnost proti rušení      |
-| **Cat 7** | 10 Gb/s                | 600 MHz   | Stínění každého páru, profesionální použití   |
-| **Cat 8** | až 40 Gb/s (do 30 m)   | 2000 MHz  | Datová centra, krátké vzdálenosti             |
-> Nejčastěji používané: Cat 5e a Cat 6
+| Kategorie              | Max. rychlost         | Frekvence | Použití                                      |
+|------------------------|------------------------|-----------|-----------------------------------------------|
+| **Cat 5 / Class D**    | 100 Mb/s               | 100 MHz   | Zastaralý, dříve používaný pro Ethernet       |
+| **Cat 5e / Class D**   | 1 Gb/s (Gigabit)       | 100 MHz   | Dnes běžně používaný                          |
+| **Cat 6 / Class E**    | 1–10 Gb/s (na krátké vzd.) | 250 MHz   | Moderní LAN sítě                              |
+| **Cat 6a / Class EA**  | 10 Gb/s                | 500 MHz   | Delší trasy, vyšší odolnost proti rušení      |
+| **Cat 7 / Class F**    | 10 Gb/s                | 600 MHz   | Stínění každého páru, profesionální použití   |
+| **Cat 8 / Class I/II** | až 40 Gb/s (do 30 m)   | 2000 MHz  | Datová centra, krátké vzdálenosti             |
+> **Nejčastěji používané: Cat 5e a Cat 6**
 ---
 ## 17. Vysvětlete zkratku RJ-45. Napište pořadí barev vodičů v RJ-45 u přímého kabelu (T568B). Kdy používáme křížený (crossover) kabel? Co to jsou krimpovací kleště?
 
@@ -206,38 +228,31 @@ Je organizovaný systém kabelů v budově (např. kanceláři, škole nebo dom�
   - 6. 🟩
   - 7. ⬜🟫
   - 8. 🟫
-- Přímý kabel: pro připojení PC → switch/router.
-- Křížený (crossover) kabel: pro připojení PC ↔ PC nebo switch ↔ switch (starší zařízení).
+- Křížený (crossover) kabel: pro připojení PC ↔ PC nebo switch ↔ switch (starší zařízení kteří nerozpoznávají technologii `MDI-X`).
 - Krimpovací kleště: nástroj pro upevnění konektoru RJ-45 na TP kabel.
----
-## 18. Co je to impedance? Nakreslete náhradní schéma metalické dvoulinky.
-
-- Impedance (Z):
-  - Elektrický odpor obvodu pro střídavý proud. Zahrnuje odpor, kapacitu a indukčnost vodičů.
-- Pro TP kabel je typická impedance 100 Ohm.
-- Náhradní schéma dvoulinky obsahuje:
-  - Rezistor (R) – odpor vodiče
-  - Kondenzátor (C) – kapacita mezi vodiči
-  - Induktor (L) – indukčnost vodiče
-> Správná impedance je důležitá pro kvalitní přenos bez odrazů signálu.
 ---
 ## 19. Jaká je maximální celková délka TP kabelu v počítačových sítích, kolik z toho je určeno na pevné rozvody a kolik na ostatní? Co je to patch kabel?
 
-- Max. délka TP kabelu:
-  - 100 metrů celkem
-    - z toho 90 m pevná kabeláž
-    - a 2×5 m patch kabely
+- Maximální celková délka TP (kroucené dvojlinky) kabelu v počítačových sítích je obvykle 100 metrů. 
+  - Z těchto 100 metrů:
+
+    - Maximálně 90 metrů je určeno pro pevné rozvody (trvalá instalace, například kabel mezi rozvaděčem a zásuvkou).
+
+    - Maximálně 10 metrů může být použito jako patch kabel (propojovací kabel mezi zařízením a zásuvkou nebo mezi zařízeními ve skříni).
+
 - Patch kabel:
-  - Krátký propojovací kabel (např. mezi zásuvkou a počítačem), zakončený RJ-45 konektorem.
+  - Patch kabel je krátký síťový kabel (obvykle délka do 10 metrů) s konektory RJ-45 na obou koncích, který slouží k propojení zařízení v síti, například počítače se switchem nebo switche s patch panelem.
 > Patch kabely jsou ohebné a připravené k okamžitému použití.
 ---
 ## 20. Zákon odrazu a zákon lomu (Snellův zákon) – o čem zákony pojednávají, nakreslete obrázek a vysvětlete. Vysvětlete pojmy kritický úhel, totální odraz.
 
 - Popisují, jak se světlo (nebo jiný paprsek) chová, když narazí na hranici dvou různých prostředí (např. vzduch a sklo, voda a vzduch):
 - Kritický úhel:
-  - Je takový úhel dopadu, při kterém paprsek klouže po hranici prostředí.
+  - Je to minimální úhel dopadu na rozhraní, při kterém se světlo láme podél hranice mezi dvěma prostředími
 - Totální odraz:
   - Nastává, když světlo dopadne pod větším úhlem než je kritický, a celé se vrací zpět do původního prostředí.
+
+![sneluv zakon](../../../img/optika.png)
 ---
 
 ## 21. Z čeho se skládá optické vlákno? Uveďte i vztah n₁ a n₂. Dělení optických vláken podle materiálu. Příklady použití.
@@ -245,9 +260,10 @@ Je organizovaný systém kabelů v budově (např. kanceláři, škole nebo dom�
 - **Optické vlákno se skládá ze tří částí:**
   - Jádro (core) – přenáší světlo (n₁)
   - Plášť (cladding) – obklopuje jádro (n₂)
-  - Ochranný obal
+  - Ochranný obal (coating) 
 - **Platí:**
   - `n₁ > n₂` index lomu jádra musí být větší než pláště, jinak by světlo neutrpělo totální odraz
+  - `n₁ < n₂` pouze částečné odraz a lom
 - **Podle materiálu:**
   - Skleněné – delší trasy, lepší kvalita
   - Plastové – levné, kratší vzdálenosti
@@ -275,10 +291,10 @@ Je organizovaný systém kabelů v budově (např. kanceláři, škole nebo dom�
 - **Ztráty:**
   - Absorpční – ztráta energie v materiálu
   - Rozptylové – nepravidelnosti ve vláknu
-  - Spojovací (spojky, svary)
+  - Spojovací - spojky, svary
 - Spojení vláken:
-  - Mechanické spojky 
-  - Svařování (fusion splicing)
+1. Mechanické spojky 
+2. Svařování (fusion splicing)
 - Výhody optiky:
     - **Vysoká rychlost, dlouhé vzdálenosti, odolnost proti rušení, menší tloušťka**
 ---
@@ -307,7 +323,7 @@ Je organizovaný systém kabelů v budově (např. kanceláři, škole nebo dom�
 - **Vrstva TCP/IP:**
   - Síťové rozhraní (network interface)
 - **Topologie:**
-  - hvězdicová (star)
+  - bus, star
 ---
 
 ## 26. Vysvětlete pojem MAC adresa, z jakých částí se skládá? Uveďte příklad zápisu MAC adresy.
@@ -340,12 +356,12 @@ Naopak:
 
 ## 28. Vysvětlete podrobně pojem CSMA/CD a CSMA/CA, co to je, jak pracuje.
 
-- CSMA/CD (Collision Detection) – používá se v klasickém Ethernetu (10/100 Mb/s):
+- CSMA/CD (**Collision Detection**) – používá se v klasickém Ethernetu (10 Mb/s):
     1. Zařízení poslouchá linku
     2. Pokud je volná, začne vysílat
     3. Pokud dojde ke kolizi, přenos se přeruší a znovu zopakuje po náhodné době
 
-- CSMA/CA (Collision Avoidance) – používá se v bezdrátových sítích (Wi-Fi):
+- CSMA/CA (**Collision Avoidance**) – používá se v bezdrátových sítích (Wi-Fi):
     1. Zařízení se pokusí kolizi předcházet
     2. Nejen poslouchá médium, ale také oznamuje záměr vysílat (pomocí RTS/CTS signálů)
     3. Zabraňuje srážkám, které nelze detekovat jako u drátu
@@ -366,15 +382,15 @@ Naopak:
 
 ## 30. Nakreslete a detailně popište formát Ethernetového rámce.
 
-| Pole rámce                | Velikost     | Popis                         |
-|---------------------------|--------------|-------------------------------|
-| **Preambule**             | 7 B          | Synchronizace                 |
+| Pole rámce                     | Velikost     | Popis                         |
+|--------------------------------|--------------|-------------------------------|
+| **Preambule**                  | 7 B          | Synchronizace                 |
 | **Start Frame Delimiter** (SFD) | 1 B    | Označení začátku rámce       |
-| **MAC cílová adresa**     | 6 B          | Kam se rámec posílá          |
-| **MAC zdrojová adresa**   | 6 B          | Odkud rámec přišel           |
-| **Typ / Délka**           | 2 B          | Typ protokolu nebo délka dat |
-| **Data (payload)**        | 46–1500 B     | Přenášená data                |
-| **Kontrolní součet (FCS)**| 4 B          | Detekce chyb (CRC)           |
+| **MAC destination address**    | 6 B          | Kam se rámec posílá          |
+| **MAC source address**         | 6 B          | Odkud rámec přišel           |
+| **Typ / Length**               | 2 B          | Typ protokolu nebo délka dat |
+| **Data (payload)**             | 46–1500 B     | Přenášená data                |
+| **Frame Check Squence(FCS)**   | 4 B          | Detekce chyb (CRC)           |
 - Minimální velikost rámce je 64 bajtů, maximální 1518 bajtů
 
 > - V Ethernet II rámcích je pole Typ, které určuje protokol vyšší vrstvy (např. IPv4 = `0x0800`).
@@ -387,14 +403,17 @@ Naopak:
    - Rozbočovač
    - Posílá data všem portům
    - Fyzická (1)
-   - Fyzicky hvězda, logicky sběrnice
-   - Minimální
+   - Fyzicky hub-and-spoke, logicky sběrnice
+   - Minimální, ale dochazi
+     - Prostě opakuje signál → propagační zpoždění (čas šíření signálu po vodičích).
 2. Switch
    - Přepínač
    - Posílá data jen konkrétnímu cíli (na základě MAC)
    - Linková (2), 
-   - Fyzicky i logicky hvězda
-   - Nízké, kvůli zpracování rámců
+   - Fyzicky star nebo mesh, logicky star
+   - Nízké, ale dochazi kvuli
+     - Musí přečíst záhlaví rámce, najít MAC adresu a rozhodnout, na který port ji odeslat →
+     - zpracování trvá čas (processing delay).
 3. Rozdíl:
     -  Hub nerozlišuje cíle – přeposílá všem. Switch je „inteligentní“, učí se MAC adresy a přeposílá efektivně.
 ---
@@ -409,16 +428,17 @@ Naopak:
 
 ## 33. Rychlosti drátového Ethernetu (IEEE 802.3x) + příklady kabelů
 
-| Označení        | Rychlost     | Typ kabelu a médium              |
-|-----------------|--------------|----------------------------------|
-| **10BASE-T**    | 10 Mb/s      | TP Cat 3, UTP                    |
-| **100BASE-TX**  | 100 Mb/s     | TP Cat 5, UTP                    |
-| **1000BASE-T**  | 1 Gb/s       | TP Cat 5e / Cat 6, UTP           |
-| **10GBASE-T**   | 10 Gb/s      | TP Cat 6a / Cat 7, STP           |
-| **1000BASE-SX** | 1 Gb/s       | Optické vlákno (multimode, MM)   |
-| **1000BASE-LX** | 1 Gb/s       | Optické vlákno (singlemode, SM)  |
-| **10GBASE-SR**  | 10 Gb/s      | Optické vlákno (MM, krátké trasy)|
-| **40GBASE-LR4** | 40 Gb/s      | Optické vlákno (SM, dlouhé trasy)|
+| Označení        | Rychlost     | Typ kabelu a médium               |
+|-----------------|--------------|-----------------------------------|
+| **10BASE2**     | 10 Mb/s      | Coaxial kabel                     |
+| **10BASE-T**    | 10 Mb/s      | TP Cat 3, UTP                     |
+| **100BASE-TX**  | 100 Mb/s     | TP Cat 5, UTP                     |
+| **1000BASE-T**  | 1 Gb/s       | TP Cat 5e / Cat 6, UTP            |
+| **10GBASE-T**   | 10 Gb/s      | TP Cat 6a / Cat 7, STP            |
+| **1000BASE-SX** | 1 Gb/s       | Optické vlákno (multimode, MM)    |
+| **1000BASE-LX** | 1 Gb/s       | Optické vlákno (singlemode, SM)   |
+| **10GBASE-SR**  | 10 Gb/s      | Optické vlákno (MM, krátké trasy) |
+| **40GBASE-LR4** | 40 Gb/s      | Optické vlákno (SM, dlouhé trasy) |
 ---
 
 ## 34. Co je zapouzdření (encapsulation) a rozbalení (deencapsulation), nakreslit
