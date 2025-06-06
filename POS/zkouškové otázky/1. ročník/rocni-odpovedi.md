@@ -64,10 +64,10 @@
   - Všechny zařízení (PC, tiskárny...) jsou připojeny přímo k jednomu centrálnímu zařízení (např. switch).
   → Výpadek jednoho zařízení neovlivní ostatní.
 
-- Hvězdicová topologie (star):
-  - Všechny zařízení (PC, tiskárny...) jsou připojeny přímo k jednomu centrálnímu zařízení (např. switch).
-  → Výpadek jednoho zařízení neovlivní ostatní.
-
+- **Stromová topologie (tree):**  
+  - Jedná se o hierarchickou strukturu, která kombinuje více hvězdicových topologií.  
+  - Zařízení jsou rozdělena do skupin (podsítí), které jsou propojeny přes víceúrovňovou síť centrálních uzlů (např. více switchů).  
+  - Výpadek jednoho podřízeného uzlu ovlivní pouze jeho „větev“, ale hlavní páteř sítě může zůstat funkční.
 
 **Obrázkové vysvětlení:**
 
