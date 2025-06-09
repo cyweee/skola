@@ -1,4 +1,4 @@
-# Užitečná videa ke studiu prg, pos, hrw
+# Užitečná videa pro výuku o počítačových sítích, hardwarů
 
 ### POS
 
@@ -20,5 +20,6 @@
 9. [Explaining RAM](https://www.youtube.com/watch?v=PVad0c2cljo&t=5s)
 10. [ SSD vs Hard Drive vs Hybrid Drive ](https://www.youtube.com/watch?v=1cyMTl_QXSc)
 11. [How do Hard Disk Drives Work? 💻💿🛠](https://www.youtube.com/watch?v=wtdnatmVdIg)
-
+12. [SSD vs HDD vs NVMe vs SATA vs mSATA vs M2: Storage Devices EXPLAINED!](https://www.youtube.com/watch?v=r3Jy5dHOj3g)
+13. [Explaining M.2 NVMe SSDs - M.2 vs. SSDs ](https://www.youtube.com/watch?v=HvfIeTieXOI)
 ****
