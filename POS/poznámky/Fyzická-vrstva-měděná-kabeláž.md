@@ -70,3 +70,4 @@
 *** 
 
 
+![standarty](../../img/pokrocila-metalicka-kabelaz.png)
