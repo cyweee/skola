@@ -38,7 +38,7 @@ Switch funguje i bez nastavení, ale základní konfigurace je důležitá:
 - Vypne pokus o hledání IP při překlepu v příkazu.
 Jinak se switch může na několik sekund „zaseknout“, než pochopí, že to nebyl hostname.
 
-### 4. `hostname <name>`
+### 4. `hostname {name}`
 - Nastaví jméno zařízení, např. `hostname S1`
 Pomáhá rozlišovat zařízení ve větší síti.
 
@@ -47,7 +47,7 @@ Pomáhá rozlišovat zařízení ve větší síti.
 Např. varování před neoprávněným přístupem.
 - můžete použít tyto značky, aby vaše sdělení vyniklo:
     - `#, $, %, @, !, *, /, +, =` atd
-### 6. `enable secret <pass>`
+### 6. `enable secret {pass}`
 - Nastaví **zašifrované heslo** pro přístup do `enable` režimu.
 Lepší než `enable password`, protože je uloženo bezpečněji.
 
@@ -73,7 +73,7 @@ Lepší než `enable password`, protože je uloženo bezpečněji.
 - Přechod do konfigurace virtuálního rozhraní VLAN 3
 (např. místo výchozí vlan 1)
 
-### 14. `ip address <ip adresa> <maska>`
+### 14. `ip address {ip adresa} {maska}`
 - Nastaví IP adresu pro rozhraní (např. VLAN), aby bylo možné spravovat switch přes síť.
 ```
 ip address 192.168.1.2 255.255.255.0
@@ -83,11 +83,16 @@ ip address 192.168.1.2 255.255.255.0
 ### 15. `no shutdown`
 - Zapne rozhraní – bez toho zůstane vypnuté i s IP adresou.
 
-### 16. `copy running-config startup-config`
+### 16. `ip default-gateway {ip}`
+- určuje výchozí bránu pro samotné zařízení
+> btw děláme to v `config mode`
+
+
+### 17. `copy running-config startup-config`
 - Uloží aktuální (běžící) konfiguraci do paměti (NVRAM)
   - `running-config` — aktuální konfigurace v RAM (běží právě teď)
   - `startup-config` — konfigurace, která se načte po restartu zařízení
 -  Pokud po konfiguraci nevložíš tento příkaz, po restartu switche se vše ztratí a vrátí do továrního nastavení.
 
-### 17. `show running-config`
+### 18. `show running-config`
 - Zobrazí celou konfiguraci
