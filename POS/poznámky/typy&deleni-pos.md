@@ -75,3 +75,93 @@ Klient-server — je model sítě, kde zařízení (klienti) komunikují přes c
 - Vyšší náklady na provoz a údržbu serveru.
 
 Příklady: Webové stránky, e-maily, databázové systémy.
+
+
+## Dělení sítí podle přenosového média:
+
+**Metalické kabely (UTP/STP, koaxiální kabel)**  
+Používají se hlavně v LAN sítích. Jsou levné, snadno instalovatelné, ale náchylné na rušení.  
+- Výhody: nízká cena, jednoduchá instalace.  
+- Nevýhody: omezený dosah a rychlost, elektromagnetické rušení.  
+
+**Optická vlákna**  
+Používají se v MAN a WAN sítích. Přenášejí data pomocí světelných impulsů.  
+- Výhody: vysoká rychlost, velký dosah, odolnost proti rušení.  
+- Nevýhody: vyšší cena, složitější instalace.  
+
+**Bezdrátové přenosy (Wi-Fi, Bluetooth, LTE, 5G, satelit)**  
+Používají se tam, kde není možné nebo výhodné vést kabel.  
+- Výhody: mobilita, flexibilita.  
+- Nevýhody: menší bezpečnost, náchylnost k rušení, omezený dosah.  
+
+
+## Dělení sítí podle přepojování:
+
+**Okruhové přepojování (Circuit Switching)**  
+Mezi dvěma účastníky se vytvoří vyhrazený spoj, který zůstává aktivní po celou dobu komunikace (např. klasická telefonní síť).  
+- Výhody: stabilní a stálá kvalita spojení.  
+- Nevýhody: neefektivní využití linek.  
+
+**Paketové přepojování (Packet Switching)**  
+Data se rozdělí na menší pakety, které se posílají nezávisle různými cestami (internet).  
+- Výhody: efektivní využití, odolnost vůči výpadkům.  
+- Nevýhody: možnost zpoždění (latence).  
+
+**Bunkové přepojování (Cell Switching, ATM)**  
+Podobné jako paketové, ale všechny bloky mají stejnou velikost.  
+- Výhody: předvídatelná rychlost, vhodné pro přenos hlasu a videa.  
+- Nevýhody: složitější a dražší technologie.  
+
+
+## Dělení sítí podle topologie:
+
+**Sběrnicová (Bus)**  
+Všechna zařízení jsou připojena na jednu přenosovou linku.  
+- Výhody: jednoduchá instalace, nízká cena.  
+- Nevýhody: porucha kabelu vyřadí celou síť.  
+
+**Hvězdicová (Star)**  
+Všechna zařízení jsou připojena k centrálnímu uzlu (switch, AP).  
+- Výhody: snadná správa, výpadek jednoho PC neovlivní ostatní.  
+- Nevýhody: porucha centrálního uzlu vyřadí síť.  
+
+**Kruhová (Ring)**  
+Zařízení jsou propojena do kruhu, data procházejí přes každý uzel.  
+- Výhody: rovnoměrné rozložení zatížení.  
+- Nevýhody: výpadek jednoho uzlu může zastavit celou síť.  
+
+**Stromová (Tree)**  
+Hierarchické propojení více hvězd.  
+- Výhody: dobrá rozšiřitelnost.  
+- Nevýhody: závislost na hlavním uzlu.  
+
+**Síťová (Mesh)**  
+Každé zařízení je propojeno s více dalšími.  
+- Výhody: vysoká spolehlivost, odolnost proti výpadku.  
+- Nevýhody: drahá a složitá instalace.  
+
+**Hybridní**  
+Kombinace více topologií podle potřeb.  
+
+
+## Dělení sítí podle provozovatele:
+
+**Privátní (soukromé)**  
+Síť jedné firmy, instituce nebo domácnosti.  
+- Výhody: plná kontrola, vyšší bezpečnost.  
+- Nevýhody: náklady na správu.  
+
+**Veřejné**  
+Síť dostupná pro širokou veřejnost (např. internet od poskytovatele, městská Wi-Fi).  
+- Výhody: snadná dostupnost.  
+- Nevýhody: nižší bezpečnost, sdílená kapacita.  
+
+**Komerční**  
+Síť provozovaná podnikatelským subjektem za účelem poskytování služeb (mobilní operátor, ISP).  
+- Výhody: profesionální správa, garance služeb.  
+- Nevýhody: závislost na poskytovateli.  
+
+**Komunitní/neziskové**  
+Síť vytvořená a spravovaná komunitou uživatelů (např. komunitní Wi-Fi).  
+- Výhody: nízké náklady, otevřený přístup.  
+- Nevýhody: menší spolehlivost a bezpečnost.  
