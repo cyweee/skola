@@ -1,5 +1,5 @@
 # Skola
-This repository is dedicated to storing notes and study materials on a various subjects, including programming, computer networking, math, hardware and Czech
+This repository is dedicated to storing notes and study materials on a various subjects, including programming, computer networking, math, operating systems, application software, hardware, czech.
 
 ### Good luck
 

@@ -1,1 +1,0 @@
-TODO: add a notes from first two lectures
