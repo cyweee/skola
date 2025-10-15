@@ -138,9 +138,28 @@ podobně jako říkáme „USBčko“, i když myslíme flash disk.
 - Používá flag DF (Don’t Fragment) = 1.
 - Router, který nemůže přeposlat paket, pošle chybu “Packet too big”.
 
-## IPv4 hlavička (header)
+## IPv4 datagram (header)
 
-![ip-header](../../../img/ipv4-header.gif)
+![ip-header](../../../img/dataram.png)
+
+- **Verze** – obsahuje 4bitovou binární hodnotu nastavenou na 0100, která identifikuje tento paket jako paket IPv4
+- **IHL** – délka hlavičky, dnes max. 20 byte (dříve to mohlo být jinak)
+- **Differentiated Services (DS)** – je 8bitové pole používané k určení priority každého paketu, dnes známe spíše
+jako QoS (Quality of Service)
+- **Total Lenght** – délka datagramu v bytech
+- **Identification** - pokud byl datagram při přepravě fragmentován, pozná se, které fragmenty patří k sobě (mají
+stejný identifikátor)
+- **Flag (příznaky)** – slouží pro řízení fragmentace, máme DF=1 (nesmí fragmentovat a MF=1 (fragment není
+poslední)
+- **Fragment offset** - udává, na jaké pozici v původním datagramu začíná tento fragment. Důležité k sestavení
+paketu!
+- **Time to Live (TTL)** – obsahuje 8bitovou binární hodnotu, která se používá k omezení životnosti paketu.
+- **Protokol** – toto pole se používá k identifikaci protokolu další úrovně. Mezi běžné hodnoty patří ICMP (1), TCP (6)
+a UDP (17).
+- **Header Checksum (kontrolní součet záhlaví)** – slouží ke zjištění poškození v hlavičce protokolu IPv4
+- **Zdrojová IPv4 adresa** – obsahuje 32bitovou binární hodnotu, která představuje zdrojovou IPv4 adresu paketu.
+Zdrojová adresa IPv4 je vždy adresa unicastového vysílání.
+- **Cílová IPv4 adresa** – obsahuje 32bitovou binární hodnotu, která představuje cílovou IPv4 adresu paketu
 
 ## TTL – Time To Live
 
