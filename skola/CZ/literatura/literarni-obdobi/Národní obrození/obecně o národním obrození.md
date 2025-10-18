@@ -4,7 +4,7 @@
 
 ## Počátek Národního Obrození
 
-- Národní obrození začalo přibližně v 70. letech 18. století (okolo 1770–1780).
+- Národní obrození začalo přibližně v 70. letech 18. století (okolo 1775–1780).
 - Jeho vznik je úzce spjat s dobou Osvícenstvi a vydáním klíčových reforem Marie Terezie a Josefa II. zejmena:
   - Všeobecný školní řád (1774), Marie Terezie:
     - Zavedení povinné školní docházky pro děti 6–12 let.
@@ -19,8 +19,8 @@
   
 ### 1. fáze
 
-- Defenzivní fáze (1770 – 1805)
-  - Fáze osvícenství. Snaha o záchranu a vědeckou obranu českého jazyka, historie a kultury. Zaměření na jazykovědu a historii.
+- Defenzivní fáze (1775 – 1806)
+  - Snaha o záchranu a vědeckou obranu českého jazyka, historie a kultury. Zaměření na jazykovědu a historii.
 
 ### 2. fáze
 
@@ -30,7 +30,7 @@
 ### 3. fáze
 
 - Romantická fáze (1830 – 1848)
-  - Fáze romantismu a počátků realismu. Obrození se stává celonárodním hnutím. Formulace politických požadavků (Austroslavismus F. Palackého). Vznik vrcholných literárních děl (Mácha, Erben).
+  - Fáze romantismu. Obrození se stává celonárodním hnutím. Formulace politických požadavků (Austroslavismus F. Palackého). Vznik vrcholných literárních děl (Mácha, Erben).
 
 ### 4. fáze
 
