@@ -30,8 +30,8 @@ Román _Chrám Matky Boží v Paříži_ (fr. _Notre-Dame de Paris_, 1831) je mo
 
 ### **literární druh a žánr**
 
-- **Druh**: epika.
-- **Žánr**: historický román s výraznými romantickými a tragickými prvky.
+- **Druh**: Epika. Protože dílo vypráví dějový příběh s postavami, prostředím a vypravěčem
+- **Žánr**: Historický román s výraznými romantickými a tragickými prvky. Protože se odehrává v minulosti, zachycuje historické prostředí a zároveň zdůrazňuje silné city, osudovost a tragický konec postav
 
 ## **II. část**
 
