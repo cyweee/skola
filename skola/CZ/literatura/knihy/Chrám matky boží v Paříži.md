@@ -42,11 +42,15 @@ Román _Chrám Matky Boží v Paříži_ (fr. _Notre-Dame de Paris_, 1831) je mo
 
 ### **postava**
 
-- **Quasimodo** – zvoník, znetvořený, hluchý, ošklivý navenek, ale schopný hluboké lásky a oběti. Symbol kontrastu mezi zevnějškem a vnitřní krásou.
-- **Esmeralda** – krásná cikánka, nevinná, čistá, tragická oběť vášně a předsudků.
-- **Claude Frollo** – arcijáhen, učenec, zosobnění lidské posedlosti, vášní i fanatismu; jeho tragédie je vnitřní rozpor mezi rozumem, vírou a tělesnou touhou.
-- **Phoebus** – rytíř, povrchní a lehkomyslný, kontrastuje s čistotou Esmeraldy    
+- **Quasimodo** – zvoník katedrály Notre-Dame, znetvořený, hluchý a navenek odpudivý, ale uvnitř citlivý, oddaný a schopný hluboké, nezištné lásky. Představuje kontrast mezi fyzickou ošklivostí a duchovní krásou. Je symbolem čistého srdce, které svět kvůli předsudkům nevidí.
+- **Esmeralda** – krásná mladá cikánka, ztělesňuje nevinnost, svobodu a soucit. Stává se tragickou obětí nenávisti, vášní a fanatismu ostatních. Její krása i dobrota přitahují, ale zároveň přinášejí její zkázu.
+- **Claude Frollo** – učený arcijáhen, který se ze zbožného a rozumného člověka mění ve fanatika ovládaného touhou. Jeho tragédie spočívá v rozporu mezi vírou, rozumem a tělesnou vášní. Ukazuje, jak i vzdělaný člověk může podlehnout temným stránkám lidské přirozenosti.
+- **Phoebus** – krásný rytíř, který působí jako hrdina, ale ve skutečnosti je povrchní, samolibý a bezcitný. Miluje jen sám sebe, využívá Esmeraldu a symbolizuje prázdnotu společnosti, která dává přednost vzhledu před charakterem.
+- **Pierre Gringoire** – potulný básník a filozof, který se náhodou dostane do života cikánů a stane se Esmeraldiným „manželem“ (jen formálně). Je racionální, zbabělý, ale i lidský a přemýšlivý. Reprezentuje obyčejného člověka – ne hrdinu, ale svědka tragédie.
+- Jeanne (Matka Esmeraldy) – původně Pařížanka, jejíž dcera byla unesena cikány. Z žalu zešílela a stala se žebračkou. Když po letech zjistí, že Esmeralda je její ztracené dítě, je už pozdě – obě umírají. Symbolizuje mateřskou lásku, bolest a krutý osud, který nezná slitování.
 - Postavy nejsou černobílé, ale mají složité psychologické vrstvy.
+> - Chrám Matky Boží v Paříži – není jen kulisou děje, ale symbolickým centrem celého románu. Představuje středověký svět, ve kterém se mísí víra, umění i lidská bolest. Je to živý organismus – svědek času, lidských osudů a proměn společnosti. Hugo v něm vidí symbol Francie, která zapomíná na své duchovní kořeny. Chrám zároveň zosobňuje krásu gotiky a autorův odpor vůči jejímu ničení moderní architekturou.
+
 
 ### **vyprávěcí způsoby**
 
@@ -105,3 +109,28 @@ Kolem chrámu se ale shromažďuje dav pařížské lůzy. Někteří chtějí E
 Quasimodo, zoufalý a zlomený, pochopí, že viníkem je právě Frollo. V hněvu ho shodí z věže katedrály. Poté se stáhne k Esmeraldině mrtvému tělu a nechá se vedle ní zemřít hladem. O několik let později naleznou lidé jejich kosti objaté v hrobě – nikdo je už nedokáže oddělit.
 
 Román ukazuje **tragický střet krásy a ošklivosti, vášně a nevinnosti, svobody a fanatismu**. Chrám Notre-Dame se stává němým svědkem lidských osudů a symbolem věčnosti.
+
+
+---
+# offtop
+
+## Znaky romantismu v díle:
+
+1. Důraz na city, fantazii a intuici místo rozumu
+    - V příběhu rozhodují silné emoce – vášeň, láska, soucit i nenávist. Frollo jedná z posedlosti, Esmeralda z čistého citu, Quasimodo z hluboké oddanosti. Rozum tu nehraje téměř žádnou roli.
+2. Únik z reality do minulosti, přírody, snů nebo fantazie
+   - Děj je zasazen do středověké Paříže – Hugo utíká z přítomnosti do minulosti, aby kritizoval tehdejší společnost. Zároveň romantizuje gotiku a středověké ideály.
+3. Melancholie, pesimismus a zklamání ze světa
+   - Tragické osudy všech hlavních postav (Quasimodo, Esmeralda, Frollo) ukazují bezvýchodnost a krutost světa, který neodpouští citlivým a odlišným lidem.
+4. Nešťastná láska
+   - Láska Quasimoda k Esmeraldě i Frollova vášeň jsou jednostranné a vedou k záhubě. Romantická láska zde znamená utrpení, nikoli naplnění.
+
+
+## Typické postavy romantismu v díle:
+1. Romantický hrdina – **Quasimodo**
+   - Výjimečný, nepochopený, stojí mimo společnost. Přestože je znetvořený a opovrhovaný, má hluboký cit a ušlechtilou duši. Touží po lásce, která zůstane nenaplněná. Jeho konec je tragický – umírá po boku Esmeraldy.
+2. Romantická oběť – **Esmeralda**
+   - Čistá, krásná, nevinná, ale svět ji zničí kvůli předsudkům a fanatismu. Stává se symbolem krutosti společnosti vůči nevinným.
+3. Tragický fanatik – **Claude Frollo**
+    - Ztělesňuje rozpor mezi rozumem a vášní. Je učenec i kněz, ale jeho vnitřní boj a potlačená touha ho nakonec zničí.
+
