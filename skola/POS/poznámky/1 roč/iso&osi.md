@@ -4,13 +4,16 @@ Model ISO/OSI je standard, který popisuje, jak různé komponenty síťových s
 
 Model OSI má **7 vrstev**:
 
-1. **Fyzická vrstva (Physical Layer)**
-2. **Linková vrstva (Data Link Layer)**
-3. **Síťová vrstva (Network Layer)**
-4. **Transportní vrstva (Transport Layer)**
-5. **Relační vrstva (Session Layer)**
-6. **Prezentačni vrstva(Presentation Layer)**
-7. **Aplikační vrstva (Application Layer)**
+| Pořadí | Název vrstvy (česky)           | Název vrstvy (anglicky)        |
+|--------|--------------------------------|--------------------------------|
+| 7      | Aplikační vrstva               | Application Layer              |
+| 6      | Prezentační vrstva             | Presentation Layer             |
+| 5      | Relační vrstva                 | Session Layer                  |
+| 4      | Transportní vrstva             | Transport Layer                |
+| 3      | Síťová vrstva                  | Network Layer                  |
+| 2      | Linková vrstva                 | Data Link Layer                |
+| 1      | Fyzická vrstva                 | Physical Layer                 |
+
 
 ### Jak model ISO/OSI funguje?
 
