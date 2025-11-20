@@ -21,7 +21,7 @@
 | Aplikační | Interakce s uživatelem a aplikacemi | HTTP, FTP, SMTP, DNS |
 | Transportní | Přenos dat mezi zařízeními | TCP, UDP |
 | Síťová | Směrování a adresování paketů | IP, ICMP, ARP |
-| Linková | Fyzický přenos dat | Ethernet, Wi-Fi, PPP |
+| Síťové rozhraní | Fyzický přenos dat | Ethernet, Wi-Fi, PPP |
 
 ### Hlavní protokoly TCP/IP
 
