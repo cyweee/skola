@@ -142,3 +142,55 @@ WHERE column_name BETWEEN value1 AND value2;
 |--------|--------------------------------------------------|--------------------------------------------------|
 | %      | Zastupuje žádný nebo libovolný počet znaků.      | bl% najde: bl, black, blue a blob                |
 | _      | Zastupuje přesně jeden libovolný znak.           | h_t najde: hot, hat, a hit                       |
+
+
+---
+
+## SQL `MIN() MAX() COUNT() AVG() SUM()` Functions
+
+- Funkce `MIN()` vrací nejmenší hodnotu vybraného sloupce.
+- Funkce `MAX()` vrací největší hodnotu vybraného sloupce.
+- Funkce `COUNT()` vrací počet řádků, které odpovídají zadanému kritériu.
+- Funkce `AVG()` vrací průměrnou hodnotu číselného sloupce.
+- Funkce `SUM()` vrací celkový součet číselného sloupce. 
+
+### `MIN()` Syntax
+
+```sql
+SELECT MIN(column_name)
+FROM table_name
+WHERE condition; 
+```
+
+### `MAX()` Syntax
+
+```sql
+SELECT MAX(column_name)
+FROM table_name
+WHERE condition; 
+```
+
+### `COUNT()` Syntax
+
+```sql
+SELECT COUNT(column_name)
+FROM table_name
+WHERE condition; 
+```
+
+### `AVG()` Syntax
+
+```sql
+SELECT AVG(column_name)
+FROM table_name
+WHERE condition; 
+```
+
+### `SUM()` Syntax
+
+```sql
+SELECT SUM(column_name)
+FROM table_name
+WHERE condition; 
+```
+
