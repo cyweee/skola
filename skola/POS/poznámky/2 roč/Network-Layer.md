@@ -105,17 +105,43 @@ podobně jako říkáme „USBčko“, i když myslíme flash disk.
 
 ## Protokoly síťové vrstvy (TCP/IP model)
 
-- **IPv4** – 32bitové adresy.
-- **IPv6** – 128bitové adresy.
-- **ICMP** – diagnostika (ping, traceroute).
-- **IGMP / MLD** – multicast správa.
-- **ARP / NDP** – převod IP↔MAC.
-- **BGP, OSPF, RIP, EIGRP** – směrovací protokoly.
+- **IPv4** 
+  - 32bitové adresy
+  - Skládá se ze 4 oktetů (např. `192.168.1.1`)
+- **IPv6** 
+  -  128bitové adresy
+  - Zapsáno v šestnáctkové soustavě (např. `2001:0db8:85a3:0000:0000:8a2e:0370:7334`)
+  - Nabízí lepší zabezpečení (IPsec v základu) a automatickou konfiguraci zařízení bez nutnosti DHCP serveru
+- **ICMP(Internet Control Message Protocol)** 
+  - Slouží k hlášení chyb a diagnostice (`ping`,`traceroute`)
+    - Ping: Testuje dostupnost zařízení (odešle echo a čeká na odpověď)
+    - Traceroute: Ukazuje cestu (seznam routerů), přes které paket putuje k cíli
+- **IGMP (IPv4) / MLD (IPv6)** 
+  -  multicast správa
+  - Používá se například pro IPTV (digitální televize) nebo videokonference. Protokol zajistí, aby router posílal stream jen těm zařízením, která o něj projevila zájem
+- **ARP(Address Resolution Protocol)**
+  - Používá se v IPv4
+  - Funguje formou dotazu: "Kdo má IP 192.168.1.5? Pošli mi svou MAC adresu!"
+- **NDP(Neighbor Discovery Protocol)**
+  - Nástupce ARP pro IPv6
+  - Je mnohem efektivnější – nepoužívá plošné vysílání (broadcast), které zbytečně zatěžuje všechna zařízení v síti, ale komunikuje cíleněji (multicast)
+- Vnitřní protokoly (IGP) – uvnitř jedné sítě (např. firmy)
+  - **RIP**:
+    - Nejstarší a nejjednodušší. Rozhoduje se pouze podle počtu "skoků" (routerů) v cestě. Pokud je cesta delší než 15 skoků, považuje ji za nedosažitelnou
+  - **OSPF**:
+    - Moderní a velmi rychlý. Buduje si kompletní mapu sítě a vybírá cestu podle rychlosti (propustnosti) linek
+  - **EIGRP**:
+    - Pokročilý protokol od Cisco kombinuje výhody různých přístupů a bere v úvahu i latenci nebo spolehlivost linky
+- Vnější protokoly (EGP) – propojení internetu
+  - **BGP (Border Gateway Protocol)**:
+    - Nejdůležitější protokol internetu
+    - Propojuje velké sítě poskytovatelů (ISP)
+    - BGP neřeší rychlost jednotlivých kabelů, ale politiku a nejkratší cestu mezi celými státy a kontinenty
 
 ## Protokol IP – vlastnosti
 
 - **Nespojovaný** – žádné předem vytvořené spojení.
-- **Best Effort** – bez záruky doručení (nespolehlivý).
+- **Best Effort(Nejlepší snaha)** – bez záruky doručení (nespolehlivý).
 - **Nezávislý na médiu** – funguje přes měď, optiku i Wi-Fi.
 - **Bez kontroly chyb** – to dělá TCP.
 
@@ -125,18 +151,37 @@ podobně jako říkáme „USBčko“, i když myslíme flash disk.
 - Ethernet ≈ 1500 B.
 - Pokud je paket větší než MTU, musí dojít k **fragmentaci**.
 
+
+## PMTUD (Path MTU Discovery)
+
+- Je to proces pomocí kterého odesílatel zjišťuje nejmenší MTU na celé cestě k cíli
+- Používá flag DF (Don’t Fragment) = 1 a zprávy ICMP, aby našel ideální velikost paketu, která projde všemi routery bez fragmentace
+- Router, který nemůže přeposlat paket, pošle chybu “Packet too big”.
+
+> MTU je pevně daný limit velikosti paketu pro konkrétní rozhraní, zatímco PMTUD je proces hledání nejnižšího z těchto limitů na celé trase mezi odesílatelem a cílem
+
+
 ## Fragmentace (IPv4)
 
-- Rozdělení velkého paketu na menší části.
-- Každý fragment má vlastní hlavičku.
-- IPv6 neumožňuje fragmentaci routery.
-- Zpomaluje přenos → proto se jí dnes vyhýbáme.
-
-## MTU Discovery
-
-- Metoda pro zjištění nejmenší MTU na trase.
-- Používá flag DF (Don’t Fragment) = 1.
-- Router, který nemůže přeposlat paket, pošle chybu “Packet too big”.
+- Rozdělení velkého paketu na menší části
+- Každý fragment má vlastní hlavičku (20 B)
+- Používá 3 pole v IP datagramu, konkrétně:
+  - **Identification (Identifikace)**;16b
+    - Slouží jako "ID číslo" paketu
+    - Pokud router paket rozdělí na 5 kousků (fragmentů), všechny tyto kousky budou mít stejné ID
+    - Podle toho cílový počítač pozná, že tyto útržky patří k sobě a má je složit do jednoho původního obrazu
+  - **Flags (Příznaky)**;3b
+    - **DF (Don’t Fragment):**
+      - Pokud je DF = 1, router nesmí paket rozdělit. Pokud se nevejde do MTU, router ho zahodí a pošle ICMP chybu
+      - Pokud je DF = 0, router může paket v případě potřeby rozsekat
+    - **MF (More Fragments):**
+      - MF = 1 znamená: „Pozor, tohle není konec, za mnou jdou další kusy.“
+      - MF = 0 znamená: „Tohle je poslední kus (nebo nebyl paket vůbec fragmentován).“
+    - **Fragment Offset**;13b
+      - Určuje "pořadí" nebo "pozici" útržku v původním paketu
+      - Udává se v osmibitových blocích (tzv. offset units)
+- IPv6 neumožňuje fragmentaci routery
+- Zpomaluje přenos → proto se jí dnes vyhýbáme
 
 ## IPv4 datagram (header)
 
@@ -163,13 +208,14 @@ Zdrojová adresa IPv4 je vždy adresa unicastového vysílání.
 
 ## TTL – Time To Live
 
-- Zabraňuje nekonečnému kroužení paketů.
-- Každý router TTL − 1.
-- Když TTL = 0 → paket se zahodí a pošle se ICMP „Time Exceeded“.
+- Počítadlo "skoků" v IP hlavičce
+- Zabraňuje tomu, aby pakety v síti kroužily nekonečně dlouho (např. při chybě v cestě)
+- Každý router, přes který paket projde, odečte 1 (TTL−1)
+  - Když TTL = 0, router paket zahodí
+  - Router pošle odesílateli zprávu ICMP Time Exceeded
 - Použití: traceroute – zjištění cesty paketů přes síť.
 
 > ## Omezení IPv4
-> 
 > - Vyčerpání adres (pouze ≈ 4 miliardy).
 > - Nedostatek end-to-end konektivity kvůli NAT.
 > - Větší složitost sítí → NAT způsobuje zpoždění a komplikace.
