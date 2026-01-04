@@ -194,3 +194,43 @@ FROM table_name
 WHERE condition; 
 ```
 
+---
+
+
+## Aliases
+
+Aliasy se používají k přidělení dočasného názvu tabulce nebo sloupci. Hlavním cílem je, aby byl výsledek dotazu nebo samotný kód čitelnější
+- Alias existuje pouze po dobu trvání daného dotazu
+- Vytváří se pomocí klíčového slova `AS`
+
+### `AS` syntaxe
+
+```sql
+SELECT nazev_sloupce AS nova_prezdivka
+FROM tabulka;
+```
+
+Příklad: Místo COUNT(ID) se ve výsledné tabulce zobrazí hlavička "Pocet_zakazniku"
+
+```sql
+SELECT COUNT(CustomerID) AS Pocet_zakazniku
+FROM Customers;
+```
+
+### Alias pro tabulku
+
+#### syntaxe
+
+```sql
+SELECT t.sloupec1
+FROM tabulka_s_dlouhym_nazvem AS t;
+```
+
+Příklad:
+
+```sql
+SELECT o.OrderID, c.CustomerName
+FROM Orders AS o
+JOIN Customers AS c ON o.CustomerID = c.CustomerID;
+```
+
