@@ -65,7 +65,7 @@ OS rozhoduje, jak bude využit výkon "mozku" počítače
 - CLI: 
   - Černé okno na psaní textových příkazů
 
-# 8. Systémové služby a nástroje (Utilities)
+### 8. Systémové služby a nástroje (Utilities)
 
 - Údržba: 
   - Nástroje na čištění disku, zálohování dat a sledování toho, jak moc se počítač zahřívá.
