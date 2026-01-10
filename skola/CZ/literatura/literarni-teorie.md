@@ -101,4 +101,59 @@
 - **Opera:** Dramatický příběh zpívaný za doprovodu orchestru.
 - **Muzikál**:Spojuje mluvené slovo, zpěv a tanec.
 
+---
+
+# Tropy a figury
+
+**Figury a tropy jsou básnické prostředky, které mají v literatuře hlavně estetickou funkci**
+
+### Tropy
+
+**Tropy** spočívají v přenášení slovního významu – autor nemyslí úplně doslovně to, co píše, ale je v tom nějaká podobnost nebo souvislost
+
+- **metafora** – přenesení významu pomocí vnější podobnosti, společné vlastnosti atd. (např. „hlava rodiny“) 
+    - **personifikace** – neživým a abstraktním věcem dává lidské vlastnosti a schopnosti („přichází jaro“)
+    - **přirovnání** – vlastnost se vyjadřuje zmíněním něčeho, co má také tuto vlastnost („je starý jako Metuzalém“)
+    - **epiteton** – netypický umělecký přívlastek, který zdůrazňuje vlastnost, emoci nebo autorův názor („stříbrné ticho“)
+    - **synestezie** – míchání několika různých smyslů dohromady („hořký zápach“)
+    - **oxymóron** – nelogické spojení dvou protikladných slov („Svítání na západě“)
+    - **alegorie** – text nebo dílo, které je celé jedna velká metafora, protože doslovně popisuje jednu věc, ale přitom vypovídá o jiné (např. Orwellova Farma zvířat)
+
+- **metonymie** – přenesení významu pomocí vnitřní souvislosti nebo vztahu („posloucháme Beethovena“)
+    - **hyperbola** – záměrné přehánění pro zdůraznění („Sto roků v šachtě žil, mlčel jsem, sto roků kopal jsem uhlí“)
+    - **synekdocha** – názvem celku se označuje jeho část anebo naopak („Nebyla tam ani noha!“)
+- **symbol** – obecně známý znak, který asociuje např. nějakou vlastnost nebo situaci („Přeběhla mi černá kočka přes cestu.“)
+- **ironie** – vyslovení opaku toho, co je opravdu míněno, většinou s humorným záměrem („Nehlaste se všichni.“)
+- **sarkasmus** – posměšný, kousavý až útočný komentář („Tvoje slohovka je skvělá ukázka toho, jak nepsat úvahy.“) 
+
+
+### Figury
+
+**Figura** znamená většinou opakování některých částí textu anebo nějakou hrátku se slovosledem. Najdete ji spíš v poezii než v próze (lomítka u příkladů znamenají nový verš). Mezi nejrozšířenější figury patří:
+
+- **anafora** – opakování slov na začátku sousedních veršů nebo vět („Smutná odpoledne nedělní / smutná starými paními“)
+- **epifora** – opakování slov na konci sousedních veršů nebo vět („Co to máš na té tkaničce? / Na krku na té tkaničce!“)
+- **epanastrofa** – opakování slov na konci jednoho verše a na začátku toho následujícího („Střela ta se zaryla v bílá ňadra, / v bílá ňadra prvního Tatařína“)
+- **epizeuxis** – opakování slov za sebou v jednom verši („Zvoní zvoní zrady zvon zrady zvon“)
+- **aliterace** – opakování hlásky nebo skupiny hlásek na začátku slov ve verši („Pepa papá papriku“)
+- **refrén** – opakování delší části textu nebo celého verše, většinou v pravidelných intervalech (např. po každé sloce)
+- **asyndeton** – hromadění slov bez použití spojek („Mluviti stříbro, mlčeti zlato.“)
+- **polysyndeton** – nadměrné používání spojek („Vy byste pořád seděla / a nevydala hlásku / a to se přece nedělá / a já vás varuju“)
+- **inverze** – přehození slovosledu pro dramatický efekt, kvůli rýmu atd. („Ke stolu se plíží tiše Polednice jako stín.“)
+- **řečnická** otázka – otázka, na kterou tazatel neočekává odpověď anebo kterou hned sám zodpoví („Víš, co se mi dnes stalo?“)
+- **elipsa** – vypuštění části věty tak, že si vynechaná slova lze domyslet („Bude devět, takže jsem pro!“)
+- **aposiopeze** – nedokončená nebo přerušená výpověď, často značená třemi tečkami („Proč a proč jsem…, jak to jen říci… Jsou snad muži loupežníci?“)
+- **apostrofa** – oslovení neživé věci nebo nepřítomné osoby („Hynku! Viléme!! Jarmilo!!!“)
+
+### Jazykové a zvukové prostředky
+
+
+- **eufemismus** – mírnější výrazy pro negativní věci („navždy nás opustil“ místo „zemřel“, „prostorově výrazný“ místo „tlustý“)
+- **dysfemismus** – hrubší výrazy („že tě huba nebolí!“ místo „že se opovažuješ takhle mluvit!“)
+- **eufonie** (neboli libozvučnost) – příjemně znějící uspořádání hlásek, často díky opakování dvojhlásek a hlásky L. („Ach v zemi krásnou, zemi milovanou“)
+- **kakofonie** (neboli nelibozvučnost) – nepříjemně znějící nebo špatně vyslovitelné uspořádání hlásek, často K, CH, R, Ř. („Už jede rytíř / v brnění kosti chrastí“)
+- **onomatopoie** (neboli zvukomalba) – použití slov, která napodobují nebo připomínají zvuky („Nocí řinčí řetězů hřmot“)
+- **gradace** – stupňování napětí a dramatičnosti děje (ke konci skoro každé dobrodružné knížky)
+
+
 > pak se dá aktualizovat nebo zlepšit >.<
