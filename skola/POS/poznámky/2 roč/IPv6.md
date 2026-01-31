@@ -89,4 +89,29 @@
 - Adresa, kterou zařízení používá pro komunikaci „samo se sebou“ (nejvic pro testování)
 - V IPv6 je to **`::1/128`** (odpovídá IPv4 adrese `127.0.0.1`)
 
+## IPv6 Datagram
+
+![IPv6-header](../../../img/ipv6-hdr.png)
+
+- **Version (4 bity):** 
+	- Označuje verzi protokolu. Pro IPv6 je zde vždy hodnota `6` (binárně `0110`)
+- **Traffic Class (8 bitů):**
+	- Slouží k prioritizaci provozu (QoS). Pomáhá routerům poznat, který paket má přednost (např. hlasový hovor má přednost před stahováním souboru)
+- **Flow Label (20 bitů):**
+	- Označuje sekvenci paketů (tok), aby routery nemusely každý paket zkoumat samostatně, ale mohly je zpracovat jako jeden proud 
+- **Payload Length (16 bitů):** 
+	- Určuje velikost dat, která jsou „přibalena“ za touto hlavičkou (v bajtech)
+- **Next Header (8 bitů):**
+	- Určuje, co následuje hned za touto hlavičkou – buď další rozšiřující hlavička, nebo protokol vyšší vrstvy (např. TCP nebo UDP)
+- **Hop Limit (8 bitů):**
+	- Podobné jako TTL u IPv4. Určuje maximální počet „skoků“ přes routery.Každý router odečte 1; pokud je nula, paket se zahodí (ochrana proti nekonečným smyčkám)
+- **Source Address (128 bitů):**
+	- Úplná adresa odesílatele
+- **Destination Address (128 bitů):**
+	- Úplná adresa příjemce
+
+> Pro srovnání ipv4 datagram ma minimálně **20 bajtů** a ipv6 datagram ma **40 bajtů**. Je dvakrát větší než minimální IPv4, protože samotné adresy v IPv6 zabírají 32 bajtů (16 pro odesílatele, 16 pro příjemce)
+
+---
+
 > trochu později doplnit informace z prezentace
