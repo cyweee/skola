@@ -10,8 +10,8 @@
 
 ## Základní charakteristika
 
-- Literární druh: Epika
-  - Protože základem děl je děj a vyprávění o lidech a událostech
+- Literární druh: Epika(psaná prózou)
+  - Protože dílo je založeno na vyprávění děje a zobrazení postav a událostí, přičemž text je formulován v souvislých větách a odstavcích, nikoli ve veršované formě
 - Literární žánr: Povídka (soubor 13 povídek)
   - Protože jde o kratší prozaické útvary se soustředěným dějem, omezeným počtem postav a jasnou pointou v závěru
 - Prostředí a čas: Malá Strana v Praze, 1. polovina 19. století
