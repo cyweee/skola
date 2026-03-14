@@ -23,8 +23,6 @@
 
 - Ve svých dílech se soustředil na **realismus** a tzv. **drobnokresbu** (detailní popis postav a jejich povah)
 - Hlavní formy a žánry:
-  - Arabesky:
-    - Krátké povídky s jednoduchým dějem, často ironické nebo smutné. Neruda v nich zachycuje rázovité postavy a neobvyklé lidské osudy
   - Povídka:
     - Delší vyprávění, kde se klade důraz na charakteristiku postav a prostředí
 ### Významná prozaická díla:
