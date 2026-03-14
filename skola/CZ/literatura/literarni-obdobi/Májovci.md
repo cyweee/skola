@@ -15,17 +15,16 @@
 
 ## Májovci
 
-- Na konci 50. let (1858) vydávají almanach Máj
-- Májovci obdivovali Karla Hynka Máchu. Byl pro ně vzorem svobody, přestože ho předchozí generace (obrozenci) odmítala
-- Programové cíle:
-  - Svoboda tvorby: 
-    - Touha po svobodném vyjádření bez cenzury.
-  - Kritika vlastenectví: 
-    - Odmítali „papírové“ vlastenectví a pouhé kopírování cizích myšlenek.
-  - Sociální cítění: 
-    - Spisovatel se má víc podílet na politickém a společenském životě.
-  - Realismus: 
-    - Zaměření na současný národní život (žádné útěky do dávné historie).
+- Májovci byli generací českých spisovatelů, kteří vstoupili do literatury koncem 50. let 19. století, konkrétně vydáním almanachu Máj v roce 1858
+- Tato skupina vznikla jako reakce na politický útlak (Bachův absolutismus) po roce 1848 a na konzervativní přístup starší generace obrozenců
+- Hlavní znaky:
+  - Moderní vlastenectví: Odmítli prázdné vlastenecké fráze a oslavu minulosti. Věřili, že nejlépe národu poslouží, když budou psát o aktuálních problémech a kriticky pojmenují i vlastní nedostatky.
+  - Světovost (Kosmopolitismus): Chtěli vyvést českou literaturu z izolace. Jejich heslem bylo „dohánět Evropu“ – přejímat moderní literární trendy a začlenit se do světového kontextu.
+  - Realismus a pravdivost: Namísto idealizace zobrazovali skutečný život všech společenských vrstev, včetně chudiny a městského prostředí. Literatura pro ně nebyla jen estetickou záležitostí, ale nástrojem k poznání pravdy.
+  - Sociální angažovanost: Autor by se měl aktivně zapojovat do politického a společenského dění. Májovci kladli důraz na sociální otázky a práva jednotlivce (např. ženská otázka u Karolíny Světlé).
+  - Kult Máchy: K. H. Mácha byl pro ně symbolem absolutní tvůrčí svobody. Zatímco obrozenci ho kritizovali za pesimismus, Májovci v něm viděli prvního moderního českého básníka, který se nebál jít proti proudu.
+- Představitelé:
+    - Jan Neruda, Vítězslav Hálek, Karolína Světlá, Jakub Arbes, Adolf Heyduk, Rudolf Mayer
 
 ---
 
