@@ -128,4 +128,22 @@
   - **Nemodlenec**:
     - Rozsáhlý román o náboženských otázkách a historii.
   - **Vesnický román**:
-    - Klasika o nešťastném manželství a morální povinnosti.
+    - Klasika o nešťastném manželství a morální povinnosti
+
+## Jakub Arbes
+
+- Pochází z Prahy (Smíchov), což je zásadní – tamní drsné dělnické prostředí hodně ovlivnilo to, o čem a jak psal
+- Studoval gymnázium a pak techniku, ale tu nedokončil. Místo toho se vrhl na novinařinu
+- Pracoval pro Národní listy. Psaní pro něj nebylo jen umění, ale hlavně způsob, jak se uživit
+#### Vynálezce žánru "Romaneto"
+- To je Arbesovo největší prvenství. Název „romaneto“ pro něj vymyslel sám Jan Neruda
+- Romaneto - je to prozaický žánr má fantastický nebo záhadný děj, který vypadá jako nadpřirozený na konci se ale celá záhada přirozeně vysvětlí pomocí vědy (logiky, fyziky, matematiky – tzv. exaktních věd)
+- Nejznámější romaneta:
+  - **Svatý Xaverius** (asi nejslavnější)
+  - **Ukřižovaná**
+  - **Zázračná Madonna**
+  - **Newtonův mozek**
+#### Sociální tvorba
+- Kromě záhad psal i o tvrdé realitě dělníků. Byl ovlivněn myšlenkami utopického socialismu (spravedlivější společnost)
+  - **Moderní upíři**
+  - **Štrajchpudlíci**
