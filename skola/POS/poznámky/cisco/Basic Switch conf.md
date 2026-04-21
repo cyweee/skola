@@ -1,31 +1,4 @@
-# Základní konfigurace přepínače (switch)
-
-## Co to vůbec je?
-Switch je síťové zařízení, které propojuje počítače, tiskárny a další zařízení v jedné lokální síti (LAN). Funguje na 2. vrstvě modelu OSI a posílá data přímo konkrétnímu zařízení podle MAC adresy.
-
-### K čemu slouží?
-- Propojuje zařízení v jedné síti (např. v kanceláři, doma)
-- Řídí síťový provoz, aby nebyl „chaos“
-- Je chytřejší než hub – neposílá data všem, ale jen tomu, komu jsou určena
-
-### Kde se používá?
-
-- Firmy, kanceláře, datová centra
-- Školy, univerzity
-- Domácnosti s více zařízeními (např. chytrá domácnost)
-- Všude tam, kde je potřeba rychlé a stabilní síťové spojení v rámci LAN
-
-## Proč musí být nakonfigurován
-
-Switch funguje i bez nastavení, ale základní konfigurace je důležitá:
-
-- Nastavení IP adresy pro vzdálenou správu (Telnet/SSH)
-- Zabezpečení přístupu pomocí hesel
-- Nastavení VLAN (virtuálních sítí)
-- Správa portů (zapnutí, vypnutí, ochrana)
-- Nastavení uvítací zprávy při přihlášení (banner)
-
-## Základní příkazy a jejich vysvětlení (Cisco PacketTracer)
+# Switch 
 
 ### 1. `enable`
 - Přechod z uživatelského režimu (`>`) do privilegovaného režimu (`#`)

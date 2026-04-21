@@ -1,4 +1,4 @@
-# Příkazy pro Packet Tracer (Cisco) - Konfigurace SSH na switch
+# SSH
 
 ### 1. `enable`
 - Přechod z uživatelského režimu (`>`) do privilegovaného režimu (`#`)
