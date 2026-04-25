@@ -1,6 +1,6 @@
-# Májovci (50. a 60. léta 19. století) a další autoři
+# Májovci
 
-## Kontext a politické pozadí (50.–60. léta)
+## Kontext a politické pozadí (50. a 60. léta 19. století)
 
 - Bachův absolutismus (50. léta):
   - Po revoluci 1848–1849 nastává návrat k absolutismu
@@ -11,7 +11,7 @@
   - Pád Bacha znamenal obnovení ústavního života
   - Do literatury vstupuje nová generace, která se už nechce jen ohlížet do historie, ale chce reálně reagovat na současnou společnost
 
----
+
 
 ## Májovci
 
@@ -26,7 +26,7 @@
 - Představitelé:
     - Jan Neruda, Vítězslav Hálek, Karolína Světlá, Jakub Arbes, Adolf Heyduk, Rudolf Mayer
 
----
+
 
 ## Jan Neruda
 
@@ -147,3 +147,125 @@
 - Kromě záhad psal i o tvrdé realitě dělníků. Byl ovlivněn myšlenkami utopického socialismu (spravedlivější společnost)
   - **Moderní upíři**
   - **Štrajchpudlíci**
+
+---
+
+# Ruchovci autory
+
+- Literární skupina, která je pojmenována podle almanachu „Ruch“ (1868)
+- Znaky:
+  - Myšlenka slovanské vzájemnosti
+  - Velmi často se obracejí do minulosti
+  - Typické je vlastenectví a myšlenka slovanské vzájemnosti
+  - Zájem o venkov (oselství) a opět obnovují historickou tematiku
+- Obracejí se k slovanskému východu(Rusko), překládají romantické básníky
+- Představitelé:
+  - Svatopluk Čech
+  - Eliška Krásnohorská
+  - Josef Václav Sládek (začátek tvorby)
+
+## Svatopluk Čech
+
+- Básník, prozaik skupiny ruchovců
+- Pracoval jako žurnalista (redaktor Květů)
+- Psal politické básně, ale i zábavné prózy
+- Jeho rodina hodně cestovala po Čechách, a tak se seznámil s venkovem
+- Studoval gymnázium v Litoměřicích a pak studoval práva. Šest let se věnoval advokátní praxi
+Díla:
+> epika
+  - "Husita na Baltu" – báseň, která byla vydána v almanachu
+  - "Adamité" – epopej, epicke rozsáhlé dílo s větvením dějem о náboženské sektě
+  - "Evropa" - alegorická skladba, je to název lodi, na které posílali političtí vězni a končí to tak, že loď potopí
+  - "Slavie" - je to symbol lodi, dojde ke konfliktu mezi rusy a poláky. Nakonec to skončí smířením (kvůli té myšlence slov. vz.)
+  - "Dagmar" - historické téma
+  - "Václav z Michalovic" - inspirován Mickiewiczem
+  - "Lešetínský kovář" - venkovské prostředí, sociální námět
+  - "Ve stínu lípy" - básnické skladby
+> próza
+  - "Pravý výlet pana Broučka do měsíce" (1)
+  - "Nový epochální výlet pana Broučka, tentokrát do XV. stol." (2) - pan Brouček se opije a probudí se ve 15. st., kdy byli husité
+> poezie
+  - "Písně otroka" - proti národnímu útlaku a soc. nerovnosti
+
+## Eliška Krásnohorská (Alžběta Pechová)
+> Městské prostředí
+- Prozaička, básnířka, libretistka, publicistka
+- Překládala díla z ruštiny (**Puškin**), polštiny (**Mickiewicz**) a angličtiny (**Byron**)
+- Účastnila se ženského hnutí (aby ženy měly právo na vzdělání)
+- Jméno: Krásnohorská → Krásná Hora nad Vltavou, kam často jezdila
+- Libreto – je text, který je východiskem při vzniku opery, operety nebo muzikálu
+- V 16 letech publikovala v časopisech verše pod patronací Karolíny Světlé a Vítězslava Hálka
+- Psala kritické statě v časopisech: „Osvěta“, „Květy“, „Ruch“ i „Hudební listy“
+- Spolupracovala s Karolínou Světlou
+- Napsala několik libret pro Bedřicha Smetanu („**Hubička**“, „**Tajemství**“, „**Čertova stěna**“, „**Viola**“)
+
+---
+
+# Lumírovci a autory
+
+- Podle časopisu „Lumír“ (1873)
+- Skupina mladých průbojných autorů soustředěných kolem časopisu „Lumír“ (vedl J. V. Sládek)
+- Hlavní představitelé:
+  - Josef Václav Sládek
+  - Jaroslav Vrchlický
+  - Julius Zeyer
+- Programové směřování:
+  - Kosmopolitismus: filozofický a estetický postoj, který klade sounáležitost k lidstvu nad příslušnost k národu či státu
+  - Snaha vyrovnat českou literaturu západním zemím, být „světoví“
+  - Inspirují se hlavně Francií a románskými jazyky
+- E. Krásnohorská vyčítala Vrchlickému nedostatek „umělecké původnosti“
+
+## Josef Václav Sládek
+
+- Básník, novinář, překladatel
+- Prošel fázemi ruchovců a lumírovců
+- Odejel studovat do Ameriky
+  - Tam studoval přírodní vědy (studium přerušil). Vedl tam český list
+  - Pracoval na farmách, lodích i železnici
+  - **Obdivoval úroveň civilizace a volnost** ale nelíbil se mu útlak indiánů
+- Po návratu se živil výukou angličtiny a překladatelstvím
+- **Přeložil 33 Shakespearových dramat**
+- Díla:
+> poezie
+- Psal dětskou poezii a je považován za zakladatele moderní české poezie pro děti
+  - "Zvony a zvonky"
+  - "Zlatý máj"
+  - "Skřivánčí písně"
+- Poezie pro dospělé:
+  - "Jiskry na moři" - intimní poezie
+  - "Selské písně a české znělky" - Jeho umělecky nejzralejší sbírka, tématem je venkov, vztah k půdě; rolník (zemědělec) je pro něj svobodný člověk
+  - "V zimním slunci"
+  - "Za soumraku" - smutná poezie, zamyšlení nad smyslem života
+
+## Jaroslav Vrchlický (Emil Frida)
+- Prozaik, dramatik, lit. kritik, průkopník (zavádí něco nového) moderních básnických směrů v české poezii
+- Překladatel prózy (W. Shakespeare, Dante, Molière, V. Hugo atd.)
+- Studoval teologii, ale pak přestoupil na filozofii, ale po 3 letech odejel do Itálie. Tam působil jako vychovatel a studoval románské literatury
+- Po návratu do Prahy (1877) získal místo tajemníka na české technice
+- Založil „Českou akademii věd a umění“ a stal se jejich tajemníkem. 1893 byl jmenován profesorem na Karlově univerzitě. Od roku 1901 byl členem panské sněmovny
+- **Má 80 básnických sbírek**
+- Eklekticismus: přebírání cizích námětů a forem byl často kritizován, že témata nevymýšlel sám
+- Díla:
+  - "Osobní a milostná lyrika"
+  - "Zlomky epopeje" - Monumentální cyklus básní o vývoji lidstva, inspirován Viktorem Hugem (Legenda věků)
+
+## Julius Zeyer
+- Prozaik, dramatik, básník velkých epických skladeb. Často v jeho dílech objevují se fantastické prvky
+- Pochází z bohaté rodiny
+- Hodně cestoval a byl znalcem cizích kultur
+- Vystudoval techniku v Praze a pak ještě studoval ve Vídni
+- Znal několik cizích jazyků
+- Byl znalcem starých evropských a orientálních kultur
+- Díla:
+> epika
+  - "Vyšehrad"
+  - "Ondřej Černyšev"
+> proza(roman)
+  - "Jan Maria Plojhar"
+  - "Tři legendy o krucifixu"
+    - **Inultus** (Česko | Legenda pražská)
+    - **El Cristo de la Luz** (Španělsko | Legenda toledská)
+    - **Samko Pták** (Slovensko | Legenda slovenská)
+> drama
+  - "Radúz a Mahulena"
+    - pohádková hra
