@@ -6,16 +6,18 @@
 - vytvoří pool adres a vstoupí do konfiguračního režimu DHCP
 ### 3. `network [network-address] [mask]`
 - definuje síť a masku adres, které se budou klientům přidělovat
-### 4. `dns-server [address]`
+### 4. `default-route [default_gateway address]`
+- Adresa default gateway
+### 5. `dns-server [address]`
 - určí adresy DNS serverů pro překlad doménového jména na IP adresu
-### 5. `domain-name [domain]`
+### 6. `domain-name [domain]`
 - nastaví název domény pro klienty v daném poolu
-### 6. `lease [days hours minutes]`
+### 7. `lease [days hours minutes]`
 - nastaví dobu pronájmu IP adresy
 > **!!! V packet traceru příkaz lease NEFUNGUJE !!!**
-### 7. `ip helper-address [address]`
+### 8. `ip helper-address [address]`
 - aktivuje DHCP Relay; příkaz se **píše na rozhraní směrem ke klientům** a směřuje na IP adresu DHCP serveru (pro IPv4)
-### 8. `show ip dhcp binding`
+### 9. `show ip dhcp binding`
 - zobrazí tabulku s aktuálně přidělenými adresami a MAC adresami klientů
 > nepovinný příkaz
 
@@ -93,9 +95,6 @@
 
 ### 6. `ipv6 nd managed-config-flag`
 - klíčový příkaz: nastaví M-flag=1, vše jde přes DHCP
-
-### 7. `ipv6 nd prefix default no-autoconfig`
-- Nastaví A-flag=0, zakáže klientům generovat si adresu sami
 
 ### 8. `ipv6 dhcp server [name_of_the_pool]`
 - Propojení s poolem
