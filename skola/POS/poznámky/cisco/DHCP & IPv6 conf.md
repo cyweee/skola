@@ -63,7 +63,7 @@
 ### 6. `ipv6 nd other-config-flag`
 - Klíčový příkaz: Nastaví O-flag=1, což klientovi řekne, aby hledal DNS v DHCP
 
-### 7. `ipv6 dhcp pool [name_of_the_pool]`
+### 7. `ipv6 dhcp server [name_of_the_pool]`
 - Propojení rozhraní s vytvořeným poolem
 
 > Flagy: A=1, M=0, O=1
@@ -108,3 +108,6 @@
 ### 2. `ipv6 address dhcp`
 - Router se chová jako klasický DHCP klient a čeká, až mu server přidělí konkrétní adresu z poolu
 
+
+
+# VAŠEEEEEK
