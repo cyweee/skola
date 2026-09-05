@@ -1,135 +1,65 @@
-# Linkova vrstva (Network layer)
+# Linková vrstva a Ethernet (Network layer)
 ****
-### Linková vrstva v modelu OSI
+### 1. Linková vrstva v modelu OSI a koncept Ethernetu
 
-- Je to druhá vrstva modelu OSI, která zajišťuje přenos dat mezi zařízeními v jedné síti.
-- V modelu TCP/IP patří linková vrstva do Network Access Layer (Vrstva síťového přístupu).
-- Hlavní úkol: zapouzdření dat do rámců (frames) a řízení přístupu k síti.
-
-****
-
-### Funkce linkové vrstvy
-
-Linková vrstva plní několik klíčových funkcí:
-
-1. Přenos dat mezi zařízeními v rámci jedné sítě (např. LAN).
-1. Řízení přístupu k přenosovému médiu (MAC – Media Access Control).
-1. Zapouzdření paketů síťové vrstvy (L3, IPv4, IPv6) do rámců (L2).
-1. Určení logické a fyzické topologie sítě (jak jsou zařízení propojena).
-1. Detekce a oprava chyb (např. kontrolní součet CRC).
-1. Adresování na úrovni datového spoje (MAC adresy).
-
-> Poznámka: Bez linkové vrstvy by musel protokol IP pracovat přímo s různými typy fyzických médií, což by síťovou komunikaci značně komplikovalo.
+- Je to druhá vrstva modelu OSI, která zajišťuje přenos dat mezi zařízeními v jedné síti
+- V modelu TCP/IP patří do Network Access Layer (Vrstva síťového přístupu).
+- Ethernet lze vnímat ve třech rovinách
+  1. **Standard:** Definován IEEE jako 802.3 (definuje formát rámce, přístup k médiu, rychlosti a kabely)
+  2. **Technologie:** Technologie pro lokální sítě LAN (kabeláž, switche, síťové karty)
+  3. **Protokol:** Protokol linkové vrstvy, který řeší adresování pomocí MAC adres a zapouzdření (IPv4, IPv6)
+- **Co Ethernet nedělá:** Neřeší IP adresy, routování ani internet
 
 ****
+### 2. Podvrstvy linkové vrstvy (IEEE 802)
 
-### Podvrstvy linkové vrstvy (IEEE 802)
+IEEE 802 definuje standardy pro LAN/MAN, přičemž Ethernet je **802.3**
+Linková vrstva se dělí na dvě podvrstvy
 
-IEEE definuje dvě podvrstvy linkové vrstvy:
+1. **LLC (Logical Link Control) – IEEE 802.2**- Komunikuje se síťovými protokoly (L3).
+- Umožňuje sdílení stejného média více protokoly.
+2. **MAC (Media Access Control)**
+- Řídí přístup k fyzickému médiu (kabel, optika)
+- Používá MAC adresy pro identifikaci zařízení
 
-1. LLC (Logical Link Control – Řízení logického spoje)
-- Komunikuje mezi síťovými protokoly (L3) a linkovou vrstvou.
-- Umožňuje, aby více protokolů (IPv4, IPv6) používalo stejné síťové médium.
-
-2. MAC (Media Access Control – Řízení přístupu k médiu)
-- Spravuje přenos dat v síťovém médiu (Ethernet, Wi-Fi atd.).
-- Definuje metody přístupu k síti (CSMA/CD, CSMA/CA).
-- Používá MAC adresy pro identifikaci zařízení v síti.
 ****
+### 3. Duplexní komunikace a řízení přístupu (CSMA/CD)
 
-### Topologie sítí
+- **Poloduplexní (Half-Duplex):** Data se přenášejí jen jedním směrem v daný okamžik
+  - Používá detekci kolizí **CSMA/CD**
+  - Kolize může nastat jen během odesílání prvních 512 bitů (*časový slot*)
+  - Proto musí být minimální velikost rámce **64 bajtů** (512 bitů). Rámce menší než 64 B (tzv. runt) se zahazují
+- **Plně duplexní (Full-Duplex):** Obousměrná současná komunikace
+  - Od rychlosti 1 Gb/s se používá výhradně plný duplex a CSMA/CD se již neřeší
 
-Logická a fyzická topologie určují, jak jsou zařízení v síti propojena.
-
-1. Topologie WAN
-
-Používané v globálních sítích:
-
-- Point-to-Point (P2P) – přímé spojení dvou uzlů, spolehlivé a bezpečné.
-- Hub-and-Spoke – jedno centrální zařízení (hub) propojuje ostatní uzly.
-- Mesh – všechna zařízení jsou propojena přímo (vysoká spolehlivost).
-- Hybridní topologie – kombinace několika typů.
-
-2. Topologie LAN
-
-Používané v lokálních sítích:
-
-1. Sběrnicová (Bus) – všechna zařízení jsou připojena na jednu přenosovou linku.
-- Výhody: jednoduchost, nízká cena.
-- Nevýhody: vysoká pravděpodobnost kolizí, selhání jednoho uzlu ovlivňuje celou síť.
-
-2. Hvězdicová (Star) – všechna zařízení jsou připojena k centrálnímu přepínači (switch).
-- Výhody: snadná správa, vysoký výkon.
-- Nevýhody: porucha centrálního uzlu způsobí výpadek celé sítě.
-
-3. Kruhová (Ring) – zařízení jsou propojena do kruhu, data se přenášejí dokola.
-- Výhody: žádné kolize.
-- Nevýhody: pokud selže jedno zařízení, síť přestane fungovat.
-
-4. Stromová (Tree) – hierarchická struktura s více úrovněmi propojení.
-- Používá se ve velkých organizacích.
 ****
-### Duplexní a poloduplexní komunikace
+### 4. Formát ethernetového rámce (Frame)
 
-- Poloduplexní (Half-Duplex) – data lze přenášet pouze jedním směrem v daném okamžiku.
-    - Používá se ve starších sítích a Wi-Fi (CSMA/CA).
+- **Mezera mezi rámci (IFG - Interframe Gap):** Čas na zpracování rámce, minimálně 96 bitových dob (12 bajtů)
+- **Preambule (7 B) a SFD (1 B):** Slouží k synchronizaci a označení začátku, nejsou součástí samotného rámce
 
-- Plně duplexní (Full-Duplex) – data mohou být odesílána i přijímána současně.
-  - Moderní přepínače (switch) pracují v plném duplexu.
+**Typy rámců:**
+1. **Ethernet II (DIX Ethernet)** - Dnes dominantní, implicitní volba v OS
+   - Obsahuje pole **EtherType (Typ)** o délce 2 B, které má hodnotu > 1500 a určuje nesený protokol (např. IPv4 je 0x0800)
+   - Struktura: Cílová MAC (6 B) | Zdrojová MAC (6 B) | Typ (2 B) | Data (46-1500 B) | FCS (4 B)
+   - Celková délka: 64 až 1518 bajtů
+2. **IEEE 802.3** - Obsahuje pole **Length (Délka)** s hodnotou 1500 nebo menší
+   - Typ protokolu se musí určovat vložením LLC hlavičky do datové části, což zmenšuje maximální užitečný náklad na 1492 bajtů
+
 ****
-### Metody řízení přístupu k síti
+### 5. Kabeláž a zapojení RJ-45
 
-V sítích s více zařízeními (např. Ethernet, Wi-Fi) je nutné koordinovat přenos dat.
+Konektor RJ-45 (8P8C) se zapojuje podle standardů **T568A** a **T568B**
+- **Přímý kabel (Straight-through):** Oba konce stejné (např. T568B - T568B). Propojení PC a switche
+- **Křížený kabel (Crossover):** Jeden konec T568A, druhý T568B. Dříve pro PC-PC, dnes řeší Auto-MDI/MDIX automaticky
+- **Konzolový kabel (Rollover):** Není pro Ethernet. Prohozený zelený a oranžový pár, slouží ke správě síťových prvků (router, switch)
 
-1. CSMA/CD (Collision Detection) – detekce kolizí
-
-- Používá se v kabelových sítích Ethernet (starší verze).
-- Zařízení před odesláním dat „naslouchá“, zda je médium volné.
-- Pokud dojde ke kolizi (dvě zařízení vysílají zároveň), data se odešlou znovu.
-
-2. CSMA/CA (Collision Avoidance) – předcházení kolizím
-
-- Používá se v bezdrátových sítích Wi-Fi (802.11).
-- Zařízení čeká náhodně dlouhou dobu, aby snížilo pravděpodobnost kolize.
 ****
-### Formát rámce (Frame)
+### 6. Standardy rychlostí Ethernetu
 
-Rámce jsou struktura dat, kterou linková vrstva používá k přenosu informací.
-
-1. Struktura rámce
-
-Každý rámec obsahuje:
-
-- Hlavičku (Header) – obsahuje MAC adresy odesílatele a příjemce.
-- Data (Payload) – přenášená informace.
-- Závěr (Trailer) – kontrolní součet (CRC) pro detekci chyb.
-
-2. Adresování
-
-- Linková vrstva používá MAC adresy (48bitové), které jsou unikátní pro každé zařízení.
-****
-
-### Protokoly linkové vrstvy
-
-Různé sítě používají různé protokoly linkové vrstvy:
-1. Lokální sítě (LAN)
-
--  `Ethernet (IEEE 802.3)` – standard kabelových sítí.
--  `Wi-Fi (IEEE 802.11)` – standard bezdrátových sítí.
-
-2. Globální sítě (WAN)
-
-- `PPP (Point-to-Point Protocol)` – pro spojení mezi dvěma uzly.
-- `HDLC (High-Level Data Link Control)` – starší, ale spolehlivý.
-- `Frame Relay, ATM, X.25` – používané ve starých WAN sítích.
-****
-## Shrnutí
-
-Linková vrstva usnadňuje přenos dat tím, že zajišťuje:
-
-- Tvorbu a zpracování rámců.
-- Řízení přístupu k přenosovému médiu.
-- Opravu chyb při přenosu dat.
-- Adresování a síťovou topologii.
+- **10Base-T (10 Mb/s):** UTP Cat3, využívá 2 páry (piny 1-2 a 3-6), Half-duplex
+- **100Base-TX (Fast Ethernet, 100 Mb/s):** UTP Cat5/5e, využívá 2 páry, Half i Full-duplex
+- **1000Base-T (Gigabit Ethernet, 1 Gb/s):** UTP Cat5e/6, **využívá aktivně všechny 4 páry**, Full-duplex
+- Max. délka segmentu u kroucené dvojlinky je vždy 100 metrů 
 
 > Moderní sítě (Ethernet, Wi-Fi) využívají plně duplexní režim a pracují bez kolizí díky přepínačům.
