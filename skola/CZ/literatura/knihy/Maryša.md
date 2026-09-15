@@ -10,7 +10,7 @@
     *   **Téma:** Kritika sňatků z rozumu (pro peníze) na úkor pravé lásky; těžké postavení žen na venkově v 19. století; generační konflikt; zničující vliv peněz a majetku na lidské charaktery a rodinné vztahy.
     *   **Motivy:** káva, jed (otrušík), peníze/majetek, vojna (rekruti), tradice a předsudky ("co by řekli lidi"), kroj, hospoda, mlýn, zoufalství, víra v Boha.
 *   **Časoprostor:**
-    *   **Čas:** Konec 19. století (říjen, konkrétně rok 1886 – děj je chronologický, ale mezi 3. a 4. jednáním je dvouletá pauza). Děj se odehrává v průběhu dne, podzimu a závěr v zimě.
+    *   **Čas:** Konec 19. století (říjen, konkrétně rok 1886 – děj je chronologický, ale mezi 3. a 4. jednáním je tříletá  pauza). Děj se odehrává v průběhu dne, podzimu a závěr v zimě.
     *   **Prostor:** Jihomoravská vesnice na Slovácku. Předlohou byla skutečná obec Těšany (odkud Alois Mrštík čerpal námět), ale autoři vytvořili fiktivní, syntetickou slováckou vesnici spojením znaků více obcí.
 *   **Kompoziční výstavba:**
     *   Dílo má **5 jednání** a je vystavěno podle vzoru klasického dramatu:
@@ -21,7 +21,7 @@
         5.  *Katastrofa:* Vražda Vávry (otrávená káva), Maryšino přiznání.
 *   **Literární druh a žánr:**
     *   **Druh:** Drama (děj je tvořen promluvami postav, určeno pro jeviště).
-    *   **Žánr:** Venkovská realistická tragédie.
+    *   **Žánr:** tragédie(venkovská realistická trangedie).
 
 ---
 
