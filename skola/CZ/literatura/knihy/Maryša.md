@@ -21,7 +21,7 @@
         5.  *Katastrofa:* Vražda Vávry (otrávená káva), Maryšino přiznání.
 *   **Literární druh a žánr:**
     *   **Druh:** Drama (děj je tvořen promluvami postav, určeno pro jeviště).
-    *   **Žánr:** tragédie(venkovská realistická trangedie).
+    *   **Žánr:** tragédie(ma tragickej konec).
 
 ---
 
