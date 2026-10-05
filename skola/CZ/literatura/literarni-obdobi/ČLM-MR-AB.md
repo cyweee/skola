@@ -10,7 +10,7 @@
   - Nepovažují, že je potřeba bojovat za jazyk
   - Odmítají napodobování
   - Kritizují eklekticismus – způsob tvorby, který nahrazuje nedostatek vlastní nápaditosti
-  - Neexistovala dlouho, protože ani měli různé názory na umění(10 let)
+  - Neexistovala dlouho, protože oni měli různé názory na umění(10 let)
 
 ## Josef Svatopluk Machar
 
@@ -44,7 +44,7 @@
 
 - Básník a prozaik
 - Tvořil impresionistickou přírodní lyriku a symbolistickou soc. poezii. Také psal milostné verše a v poezii se pokoušel o analýzu života současných intelektuálů i soc. román
-- V Praze sledoval právo a tam se seznámil s F. X. Šaldou
+- V Praze studoval právo a tam se seznámil s F. X. Šaldou
 - Díla:
   - **"Květy intimních nálad"**
     - Pesemisticka sbírka tragických příběhů
