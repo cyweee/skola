@@ -67,3 +67,43 @@
 ### 20. `erase startup-config`
 - Smaže startovací konfiguraci
 > Tento příkaz se (spolu s `delete vlan.dat`) využívá k obnovení switche do továrního nastavení
+
+---
+
+# InterVLAN
+
+## Router-on-a-Stick (ROAS)
+
+### 1. `interface {rozhraní}`
+
+- Vstup do konfigurace fyzického rozhraní routeru, např. `interface g0/0/1`
+> Fyzické rozhraní slouží jako hlavní linka pro trunk, na které se vytvářejí logická podrozhraní
+
+### 2. `no shutdown`
+- Zapne (aktivuje) fyzické rozhraní routeru nebo virtuální SVI rozhraní na switchi
+
+### 3. `interface {rozhraní}.{ID_podrozhraní}`
+- Vytvoří a přejde do konfigurace logického podrozhraní (subinterface), např. `interface g0/0/1.10`
+> Každá VLAN vyžaduje vlastní podrozhraní na fyzickém portu routeru
+
+### 4. `encapsulation dot1Q {VLAN_ID}`
+- Nastaví standard zapouzdření 802.1Q a přiřadí podrozhraní k určené VLAN
+> Router díky tomu dokáže zpracovávat tagované rámce z trunku a odstraňovat z nich tagy při směrování paketů
+
+### 5. `ip address {IP_adresa} {maska}`
+- Nastaví IP adresu a masku podsítě na rozhraní či podrozhraní
+
+## L3 Switch / SVI
+
+### 6. `ip routing`
+- Zapne funkce směrování (routování) přímo na L3 switchi
+> Po zapnutí umožňuje switchi směrovat provoz přímo mezi rozhraními SVI (mezi různými VLAN) a využívat routovací protokoly
+
+### 7. `interface vlan {VLAN_ID}`
+- Vytvoří a vstoupí do konfigurace virtuálního rozhraní switche (SVI)
+
+### 8. `ip address {IP_adresa} {maska}`
+- Nastaví IP adresu a masku podsítě na rozhraní
+
+### 9. `no switchport`
+- Přepne fyzický port switche z přepínaného (L2) do směrovaného (L3) režimu (tzv. routed port)
