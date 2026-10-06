@@ -118,3 +118,62 @@
     -  První sbírka, proslulá skeptickým a bohémským laděním
   - **"Radosti života"**
     - sbírka obsahující motivy zklamání, marnosti a hospodského života
+
+## Stanislav Kostka Neumann
+
+- Básník, prošel složitým uměleckým vývojem od anarchismu přes moderní směry, symbolismus až k proletářské poezii
+- Olšanská vila na Žižkově – tam se scházela anarch. lit. skupina. Patřila jeho tetam
+- Díla:
+  - **"Jsem apostol nového žití"**
+  - **"Satanova sláva mezi námi"**
+  - **"Kniha lesů, vod a strání"** 
+    - přírodní lyrika, Vitalismus (směr)
+  - **"Nové zpěvy"**
+    - vitalisni poezie, oslavuje pokrok
+    - Civilismus (směr)
+  - **"Rudé zpěvy"** 
+    - Proletářská poezie
+  - **"Zpěvy dráty"**
+  - **"Beseňující role"** + **"Lenošená léta"** 
+    - Díla o druhé světové válce
+
+
+## Fráňa Šrámek
+
+- Byl ovlivněn impresionismem
+- Básník, prozaik, dramatik
+- Byl vojákem (1. sv. válka)
+- Psal poezii, prozu, drama
+- Díla:
+  - **"Života bido, přece tě mám rád"**
+  - **"Modrý a rudý"**
+    -  anti vojenské verše
+  - **"Splav"**
+    - přírodní/milostná lyrika, mládí, příroda, žena se splivaji
+  - **"Stříbrný vítr"**
+    - proza
+  - **"Léto"**
+    - impresionismus
+
+## Petr Bezruč (Vladimír Vašek)
+
+- Básník
+- Syn Antonína Vaška (zpochybnil pravost rukopisů)
+- Rodina přestěhovala do Brna, kde Petr potom maturoval. Pak se studoval filologii v Praze, ale nedokončil a vrátil se do Brna
+- Díla:
+  - **"Slezské písně"**
+    - Básnicka sbírka (je to **lyricko-epická poezie**)
+    - Poprvé vydané v roce 1909 (původně vycházely pod názvem Slezské číslo)
+    - Jsou tam 3ri druhy básně:
+      1. Intimní lyrika
+      2. Soc. lyrika (poezie)
+      3. Národnostní tema
+    - Vyskytuje se postava proletaře 
+    - Je tam řada epických básní / balad
+
+> Postava proletáře představuje symbol sociálního a národního útlaku obyvatel tehdejšího Těšínska a Ostravska
+
+- Znaky:
+  - Utočné básně
+  - Naléhavé otazky 
+  - Výhružky
