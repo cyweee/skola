@@ -68,3 +68,13 @@
 ## Romantické prvky v díle Krysař
 
 - Hlavními romantickými prvky v díle jsou osamělý, tajemný hrdina stojící na okraji společnosti, jeho tragická a nenaplněná láska k Agnes, hluboký rozpor mezi výjimečným jedincem a chamtivým maloměšťáckým okolím a osudovost vedená silnými emocemi (pomstou, zklamáním a žalem)
+
+---
+
+## Příběh
+
+Do města Hammeln přichází tajemný Krysař, aby čarovnou píšťalou vyvedl přemnožené krysy. Ve městě se zamiluje do Agnes. Krysy utopí v řece, ale radní mu odmítnou zaplatit ujednanou odměnu.
+
+Krysař chce odejít, ale drží ho láska k Agnes. Ta však čeká dítě s Kristiánem a z žalu a pocitu viny spáchá sebevraždu skokem do propasti na hoře Koppel.
+
+Zoufalý Krysař se rozhodne pro pomstu. Zapíská na píšťalu plnou silou a všichni obyvatelé města ho v transu následují na horu Koppel, kde skáčou do propasti. Krysař skočí za nimi. Město zůstane prázdné – přežije jen prostoduchý rybář Sepp Jörgen a opuštěné nemluvně, o které se Sepp rozhodne postarat
