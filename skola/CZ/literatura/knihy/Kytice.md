@@ -67,3 +67,4 @@
 - Rým a rytmus: Pravidelný, připomínající lidovou píseň
 - Vypravěč: Er-forma
 - Postavy: Nejsou typicky romanticky rozpolcené; přijímají svůj osud a řídí se mravním kodexem
+- Zrcadlení 
